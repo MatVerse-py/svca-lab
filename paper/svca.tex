@@ -1,0 +1,79 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{url}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{axiom}{Axiom}
+
+\begin{document}
+
+\title{SVCA: Self-Verifying Computational Artifacts \\
+\large A Primitive for Artifact-Oriented Science}
+
+\author{\IEEEauthorblockN{Mateus}
+\IEEEauthorblockA{MatVerse Lab\\
+\{mateus\}@matverse.org}}
+
+\maketitle
+
+\begin{abstract}
+Modern computational science lacks a \emph{canonical unit of trust}: every experiment relies on mutable infrastructure, external registries and human-managed links.
+We formalize \emph{Self-Verifying Computational Artifacts} (SVCA) — digital objects that \emph{are} the experiment, cryptographically prove their own validity and reproduce byte-identically without infrastructure.
+We axiomatise SVCA as the \emph{minimal class} closed under five invariants and prove that any object in this class yields \emph{self-sufficient evidence}.
+\end{abstract}
+
+\section{Introduction}
+Computational science is built on a fragile premise: that \emph{descriptions} remain faithful to \emph{executions}.
+We show this is not a social failure but an \emph{ontological mismatch}: papers are approximations, while reality is executable.
+We introduce \textbf{Self‑Verifying Computational Artifacts} (SVCA) as the missing primitive.
+
+\section{Axiomatic Definition}
+An artifact \(A\) belongs to SVCA iff it satisfies:
+\begin{axiom}[Integrity]
+\(\exists h=\text{Hash}(A)\) (negligible collision) invariant under transport.
+\end{axiom}
+\begin{axiom}[Executability]
+\(\exists E: E(A)\to S\) (valid state).
+\end{axiom}
+\begin{axiom}[Public Verifiability]
+\(\exists V(pk,h,\sigma)\) with \(V(pk,h,\sigma)=1 \iff \sigma=\text{Sign}(sk,h)\).
+\end{axiom}
+\begin{axiom}[Strong Reproducibility]
+\(\text{Build}(L) \equiv A\) byte-identical for all replicas.
+\end{axiom}
+\begin{axiom}[Autonomy]
+\(A\) requires no external resources (DNS, registry, clock).
+\end{axiom}
+Removal of any axiom breaks the class — SVCA is minimal.
+
+\begin{theorem}[Self‑Sufficient Evidence]
+If \(A\in\text{SVCA}\), experimental validity is decidable offline.
+\end{theorem}
+\begin{proof}
+By A3, \(\sigma\) exists with \(V(pk,\text{Hash}(A),\sigma)=1\). By A4, any observer recomputes \(A'\) and verifies \(\text{Hash}(A')=\text{Hash}(A)\). Decision reduces to pure mathematics.
+\end{proof}
+\begin{corollary}
+Trust shifts from institutions to mathematics.
+\end{corollary}
+
+\section{Implementation and Evaluation}
+We built a compact capsule containing a WASM module compiled from Go 1.22.3 with `-trimpath -ldflags="-buildid="`.
+The build is containerized with a pinned Debian digest; toolchains are verified by SHA256.
+
+\section{Implications}
+\paragraph{Constitutional Computation.}
+Execution occurs iff invariants hold — governance by cryptographic law.
+\paragraph{Scientific Permanence.}
+As long as a single copy exists, integrity can be re‑established without authorities.
+\paragraph{Epistemic Shift.}
+SVCA is to computational science what the specimen is to biology: the object itself is the evidence.
+
+\section{Conclusion}
+An experiment that cannot be independently re‑instantiated is not evidence — it is testimony.
+
+\end{document}

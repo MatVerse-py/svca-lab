@@ -1,0 +1,23 @@
+name: Reproducible Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build container
+        run: docker build -t svca -f container/Dockerfile .
+      - name: Run deterministic build
+        run: docker run --rm -v $PWD:/app svca bash -c "cd /app && ./build.sh"
+      - name: Verify signature and hash
+        run: docker run --rm -v $PWD:/app svca bash -c "cd /app && ./verify.sh"
+      - name: Store artifact hash
+        run: sha256sum build/module.wasm > expected.hash
+      - name: Re-run build (fresh container)
+        run: |
+          docker run --rm -v $PWD:/app svca bash -c "cd /app && rm -rf build && ./build.sh"
+          sha256sum build/module.wasm > actual.hash
+      - name: Compare hashes
+        run: diff expected.hash actual.hash
