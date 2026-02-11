@@ -1,0 +1,8 @@
+{
+  "capsule": "module.wasm",
+  "timestamp": "",
+  "signature": "",
+  "compiler": {
+    "go": "1.22.3"
+  }
+}

@@ -1,0 +1,4 @@
+build/
+capsule/secret.key
+*.tar
+*.pdf

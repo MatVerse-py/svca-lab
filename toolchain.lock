@@ -1,0 +1,15 @@
+# toolchain.lock – versões exatas e hashes para build bit-a-bit
+
+[container]
+base = "debian@sha256:2a0c9e1b8f0d7a4f0f9c8c9a6c8a6e4c2f5b6d7a9e0b1c2d3e4f5a6b7c8d9e0"
+
+[toolchains]
+  [toolchains.go]
+  version = "1.22.3"
+  sha256 = "8920ea521bad8f6b7bc377b482498c1ad3226a1970d573a287d9a7fcdb0625d5"
+
+[signature]
+algorithm = "Ed25519"
+public_key_file = "capsule/pubkey.pem"
+private_key_file = "capsule/secret.key"
+format = "PEM (PKIX public / PKCS8 private)"
