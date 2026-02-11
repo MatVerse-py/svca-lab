@@ -9,6 +9,11 @@ BUILD = ROOT / "build"
 ARTIFACT = ROOT / "artifact"
 ARTIFACT.mkdir(exist_ok=True)
 
+VERIFY_STAMP = ROOT / ".verify_passed"
+
+if not VERIFY_STAMP.exists():
+    raise SystemExit("verify PASS ausente. Rode ./verify.sh antes de gerar artifact.")
+
 bundle_path = ARTIFACT / "bundle.tar.gz"
 manifest_path = ARTIFACT / "manifest.json"
 hashes_path = ARTIFACT / "hashes.txt"
