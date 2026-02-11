@@ -18,11 +18,27 @@ svca-lab/
 └── LAB_POLICY.md
 ```
 
-## Fluxo operacional
+## Ativação limpa do laboratório
 
 ```bash
 ./lab_setup.sh
+```
+
+## Pipeline causal (obrigatório)
+
+```text
+sem verify PASS
+→ sem artifact
+→ sem publisher
+→ sem DOI
+```
+
+Comandos operacionais:
+
+```bash
+./build.sh
+./verify.sh
 python3 build_artifact.py
 ```
 
-Regras de governança e publicação científica estão em `LAB_POLICY.md`.
+`build_artifact.py` só gera saída quando o carimbo `.verify_passed` foi emitido por `verify.sh`.

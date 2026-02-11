@@ -1,15 +1,18 @@
 # LAB_POLICY
 
-## Regra central
+Nothing is published without deterministic replay.
 
-**Se não é reproduzível, não publica.**
+Nothing is accepted without hash verification.
 
-## Lei operacional
+Nothing is trusted without artifact.
 
-**Organismos não publicam incoerência.**
+## Pipeline causal
 
-## Aplicação prática
+sem verify PASS
+→ sem artifact
 
-- Toda execução científica deve passar por `verify.sh` com status PASS.
-- O replay determinístico (`build.sh`) é obrigatório antes de publicação.
-- Artefatos científicos devem ser emitidos em `artifact/` para consumo posterior pelo publisher.
+sem artifact
+→ sem publisher
+
+sem publisher
+→ sem DOI
