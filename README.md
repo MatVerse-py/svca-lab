@@ -74,9 +74,9 @@ build/
 - Remove qualquer timestamp implícito
 - Gera SHA256 do binário
 - Assina o manifesto usando chave Ed25519 estável
-- Não gera chaves automaticamente
+- Se `capsule/secret.key` não existir, gera automaticamente um novo par Ed25519 (`capsule/secret.key` + `capsule/pubkey.pem`)
 - Não acessa rede
-- Não modifica chave pública versionada
+- Pode sobrescrever `capsule/pubkey.pem` em clones novos (primeira execução sem chave privada)
 
 Resultado: build determinístico.
 
@@ -100,12 +100,12 @@ binary == manifesto == assinatura == chave pública
 
 O `capsule/loader.js`:
 
-- Carrega `manifest.json`
-- Verifica assinatura antes de instanciar WASM
-- Usa `wasm_exec.js` para runtime Go
-- Só executa se integridade for válida
+- Faz `fetch` direto de `module.wasm`
+- Instancia WASM imediatamente com `WebAssembly.instantiate`
+- Não valida `manifest.json`/`signature.bin` antes da execução
+- Não carrega `wasm_exec.js` atualmente
 
-⚠️ O módulo **não é instanciado antes da verificação**.
+⚠️ No estado atual, o módulo é instanciado **sem pré-verificação criptográfica** no loader de browser.
 
 ---
 
