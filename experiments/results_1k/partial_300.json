@@ -1,0 +1,3002 @@
+[
+  {
+    "iteration": 1,
+    "puf_entropy": "9842a03f830dd7ef1f5b8834537d24752395494a9e47158b310fcd440f07d5e5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.994859154423587,
+    "omega_triggers": 0,
+    "alpha_r": "3ec895e0482c3e26",
+    "duration_ms": 888
+  },
+  {
+    "iteration": 2,
+    "puf_entropy": "6c1920ae2f83ace69459dd59c2538d641d166f6708039a210338fcc15dcb6c77",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9910317827803168,
+    "omega_triggers": 0,
+    "alpha_r": "fef128003b6e6c33",
+    "duration_ms": 843
+  },
+  {
+    "iteration": 3,
+    "puf_entropy": "7bd16462e9829765c8f62cafeeeb50bc7f6e4c92bfce550e252bd1535c4c3b4d",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9931805675801014,
+    "omega_triggers": 0,
+    "alpha_r": "19f501c627ad4ec6",
+    "duration_ms": 854
+  },
+  {
+    "iteration": 4,
+    "puf_entropy": "0275328cd2eaf23f9e7b30eda662a2ea49688efaf04bef884b9f49ae5bd69784",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9976809244333459,
+    "omega_triggers": 0,
+    "alpha_r": "f8dc534835e7196c",
+    "duration_ms": 884
+  },
+  {
+    "iteration": 5,
+    "puf_entropy": "4c0cfbde5dce64d6da9681f08d2d192543f2b342be8c3db3440117c5f4e25f74",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9954626848798919,
+    "omega_triggers": 0,
+    "alpha_r": "5ebfd2771104ed8c",
+    "duration_ms": 891
+  },
+  {
+    "iteration": 6,
+    "puf_entropy": "ce6e62624a9e3a86f7dd24610f0c9ddd01e7451f1fbf6cc300c1fd9dcc44f51e",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9925086733429629,
+    "omega_triggers": 0,
+    "alpha_r": "d19508ac0c6743e6",
+    "duration_ms": 891
+  },
+  {
+    "iteration": 7,
+    "puf_entropy": "18b64d635d7df8d901f54d9625274ec6fb7dae685292913a7032faea3f535c15",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9910077715334946,
+    "omega_triggers": 0,
+    "alpha_r": "047c544f82e592cc",
+    "duration_ms": 898
+  },
+  {
+    "iteration": 8,
+    "puf_entropy": "54acdb0a86a5f5006c4024d1ed7124de716cf2727c7a50cab4502b9bde369a28",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9924328279982526,
+    "omega_triggers": 0,
+    "alpha_r": "064b107718b89411",
+    "duration_ms": 896
+  },
+  {
+    "iteration": 9,
+    "puf_entropy": "6bbeb4c267db8208a2449ad92bb9ac987b054cda416ad3472262b0170a526ca2",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9933346232485054,
+    "omega_triggers": 0,
+    "alpha_r": "4b454b47fdb7cd2e",
+    "duration_ms": 883
+  },
+  {
+    "iteration": 10,
+    "puf_entropy": "6adb06e159f41f3097994ca776a86f26059526bfe7f0e0c25100fdf12be83adb",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.99626941466016,
+    "omega_triggers": 0,
+    "alpha_r": "8732fc160390e8a3",
+    "duration_ms": 873
+  },
+  {
+    "iteration": 11,
+    "puf_entropy": "e78209893e68155a05b1052ec72555d68ea53a4df5fd2b721726fc2e975ca330",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9973576473183398,
+    "omega_triggers": 0,
+    "alpha_r": "71de84cdc57d0485",
+    "duration_ms": 881
+  },
+  {
+    "iteration": 12,
+    "puf_entropy": "159de8ea7edd60672d4a11edd4319bf378bc96da69f86117dc6afbb25c0ec128",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9919498157055883,
+    "omega_triggers": 0,
+    "alpha_r": "a8ba584dfb344e04",
+    "duration_ms": 871
+  },
+  {
+    "iteration": 13,
+    "puf_entropy": "4942c972656317d8918ca5dbb2db4034bf66f813ad3a9f980fdc019c9aff1ed2",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9964833250666632,
+    "omega_triggers": 0,
+    "alpha_r": "fb95545bb7c5f41f",
+    "duration_ms": 855
+  },
+  {
+    "iteration": 14,
+    "puf_entropy": "c30a2c2353290e51313be550ffa25b9293650a3ef1d2d2e50e47872f2a67a3d8",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9927694840256104,
+    "omega_triggers": 0,
+    "alpha_r": "cfcaedd7e90fc53e",
+    "duration_ms": 835
+  },
+  {
+    "iteration": 15,
+    "puf_entropy": "2d83c21ae50777dd1265ccb878d0a00ee14898a50045b33571daa1b4285f5ae1",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9906805293448525,
+    "omega_triggers": 0,
+    "alpha_r": "ce6adacb3bb27ef8",
+    "duration_ms": 882
+  },
+  {
+    "iteration": 16,
+    "puf_entropy": "a08e91e27a423219efb9ce6512c7082fe46cc22c02586c48b162af066c8b6bcc",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9963407403108598,
+    "omega_triggers": 0,
+    "alpha_r": "e1038e1532db59db",
+    "duration_ms": 905
+  },
+  {
+    "iteration": 17,
+    "puf_entropy": "a867272f9fb2b5332fbdbd2494e75a0986a4abba1174bb159510f0df931648ff",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9997719190331579,
+    "omega_triggers": 0,
+    "alpha_r": "4d25458a4b929be5",
+    "duration_ms": 876
+  },
+  {
+    "iteration": 18,
+    "puf_entropy": "b27a8c55e12cb4992133a98dd05caa0fa4aa58d8f1e067ead6f18fddf32aa090",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9959785536988945,
+    "omega_triggers": 0,
+    "alpha_r": "83af1fe113b1e2d4",
+    "duration_ms": 877
+  },
+  {
+    "iteration": 19,
+    "puf_entropy": "84dd5dc81ba849302703bbc6cb1f9fd72f18bd19e54017d64de1e4e1365215a0",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9982669162534871,
+    "omega_triggers": 0,
+    "alpha_r": "30f6d17e051d72eb",
+    "duration_ms": 849
+  },
+  {
+    "iteration": 20,
+    "puf_entropy": "e31635ed32a9182d88bd26f42303d09cf7dfb0b9359728ea9b96cb6da85566d5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9997927744591174,
+    "omega_triggers": 0,
+    "alpha_r": "56a33b51841952a5",
+    "duration_ms": 874
+  },
+  {
+    "iteration": 21,
+    "puf_entropy": "fd8ac658080df052de6021854fa8c0e8bd4e2f9abad8ac375989fa79d669da04",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.991659409448296,
+    "omega_triggers": 0,
+    "alpha_r": "c7b95dd900352d73",
+    "duration_ms": 879
+  },
+  {
+    "iteration": 22,
+    "puf_entropy": "732786a11da0b687975434452fd34d38de5e15d9f09727b018cb5faccb7ae645",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9948395755896815,
+    "omega_triggers": 0,
+    "alpha_r": "8d03288b9e314481",
+    "duration_ms": 857
+  },
+  {
+    "iteration": 23,
+    "puf_entropy": "52237a459cac73f02de4d34cea8b7d80ab25ced85b61b33213e2b153e9f8dc57",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.997161174948655,
+    "omega_triggers": 0,
+    "alpha_r": "1b8518c3fac24667",
+    "duration_ms": 842
+  },
+  {
+    "iteration": 24,
+    "puf_entropy": "3fabbcc9b54ca6cf72d1ed882d05b0a3ce8a7ea45696b59ba1b629c6587bcc94",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9973687978425502,
+    "omega_triggers": 0,
+    "alpha_r": "6bb85ca5b19e9ece",
+    "duration_ms": 868
+  },
+  {
+    "iteration": 25,
+    "puf_entropy": "f7f579784797feff93103980bd2d7b88edfd22c7f6a98c5eef9281e0b2fc24ab",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9966757641404433,
+    "omega_triggers": 0,
+    "alpha_r": "879b2a26f5402ef2",
+    "duration_ms": 890
+  },
+  {
+    "iteration": 26,
+    "puf_entropy": "12f311c1b9dcff8516cd4cc696885b28d657e4ac246e6aecd0b0b9626b1332b4",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9965402257960515,
+    "omega_triggers": 0,
+    "alpha_r": "97d5151df58c719c",
+    "duration_ms": 880
+  },
+  {
+    "iteration": 27,
+    "puf_entropy": "ba8bf9e473772ca070bbe0f2f5a454a7ae62194c582a434e96fe446fad9d641c",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9902516550937642,
+    "omega_triggers": 0,
+    "alpha_r": "0cad241c4aa724f0",
+    "duration_ms": 859
+  },
+  {
+    "iteration": 28,
+    "puf_entropy": "64f8abac314157586a2357e02d6a757918bf1d751256ba8ce2acd2a0e14b280b",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9904937725342541,
+    "omega_triggers": 0,
+    "alpha_r": "18a465ec6296cf18",
+    "duration_ms": 872
+  },
+  {
+    "iteration": 29,
+    "puf_entropy": "b766cdc33717feb9766a11e7f5e694c0799da562ca6467c8ce23db4dbacf5883",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9969390494497408,
+    "omega_triggers": 0,
+    "alpha_r": "440bcfab0ce58fac",
+    "duration_ms": 839
+  },
+  {
+    "iteration": 30,
+    "puf_entropy": "cfe2149578465bcd065e377adf2159461f9602aae97df77ba915a7f9a7d72f34",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9958836713111662,
+    "omega_triggers": 0,
+    "alpha_r": "697253f1dd33124b",
+    "duration_ms": 871
+  },
+  {
+    "iteration": 31,
+    "puf_entropy": "5fd49b8918bced247f8a610a5be7e0c6d2299e04dd295b073e27496d55bf1e7c",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9923706097621745,
+    "omega_triggers": 0,
+    "alpha_r": "74293ff6ed5a7dd6",
+    "duration_ms": 868
+  },
+  {
+    "iteration": 32,
+    "puf_entropy": "3735965e263d593dc9549e7877741823ca1d2bb0ae0a34e0e9bc248cf6bbce78",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9983940191840118,
+    "omega_triggers": 0,
+    "alpha_r": "2aa3134e3904f951",
+    "duration_ms": 872
+  },
+  {
+    "iteration": 33,
+    "puf_entropy": "4bf11177206b2701747ed29bb5bbbbe0a9ac59003740e0a12b74396bfded6742",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9934808526263005,
+    "omega_triggers": 0,
+    "alpha_r": "12cf6590ebc4b42e",
+    "duration_ms": 838
+  },
+  {
+    "iteration": 34,
+    "puf_entropy": "763e7d74f163ce6e668b034b6c1d326078aa9b7f83e6243876be843094ae2c91",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9997707259080136,
+    "omega_triggers": 0,
+    "alpha_r": "ba534d9e33a1a3eb",
+    "duration_ms": 892
+  },
+  {
+    "iteration": 35,
+    "puf_entropy": "cc6d042bd46d759d5148cf36c082b481b079522d35f33e1d7d00a0d056ab4c07",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9953934752318269,
+    "omega_triggers": 0,
+    "alpha_r": "708baaa5cb23a4ed",
+    "duration_ms": 883
+  },
+  {
+    "iteration": 36,
+    "puf_entropy": "2e8b95f5c60acf6b48af7736532def276084e75ceb9b1604fb18245eff173add",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9925197437193178,
+    "omega_triggers": 0,
+    "alpha_r": "fe9ec847cb236026",
+    "duration_ms": 852
+  },
+  {
+    "iteration": 37,
+    "puf_entropy": "9f8b9823ada49dfb12494acede5ec326f84a94a1abd816b40056fe06ba785f0b",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9971973064725697,
+    "omega_triggers": 0,
+    "alpha_r": "cc76b16c726730d0",
+    "duration_ms": 876
+  },
+  {
+    "iteration": 38,
+    "puf_entropy": "28506d5cca95fc420658b9c7500ea9dd8f7b4acba6c261d0b53dbfb540285447",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9927340243556058,
+    "omega_triggers": 0,
+    "alpha_r": "cb5d95fd6386d830",
+    "duration_ms": 841
+  },
+  {
+    "iteration": 39,
+    "puf_entropy": "f05169d5cdc2f902116634568a85549a2373c8420e7ad29b9bdd54f2c4fd73b1",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9913408608397161,
+    "omega_triggers": 0,
+    "alpha_r": "8caece78867a784c",
+    "duration_ms": 877
+  },
+  {
+    "iteration": 40,
+    "puf_entropy": "aca5736cb08c3fb21d09f11eeabac92b52807d34dfa5cce36a07114ee3baafa8",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9922824357820822,
+    "omega_triggers": 0,
+    "alpha_r": "8cc4df693c8e5aef",
+    "duration_ms": 852
+  },
+  {
+    "iteration": 41,
+    "puf_entropy": "86dc75684c08a8a02db30a60b4aced223efa0fbc4c7deaf5b2139ced2024e8c3",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9951336855335263,
+    "omega_triggers": 0,
+    "alpha_r": "f085abbc0f971216",
+    "duration_ms": 849
+  },
+  {
+    "iteration": 42,
+    "puf_entropy": "0f849db137f103a20e42c8a567ee1a08473a774d2d0f1594f553967578093b11",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9986387277560476,
+    "omega_triggers": 0,
+    "alpha_r": "de816f6cdd1375bc",
+    "duration_ms": 871
+  },
+  {
+    "iteration": 43,
+    "puf_entropy": "dfb47d3e349a1eaa7e191a6f2705ea6f0557b154735a6452a7fa352fab87c217",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9928251471761267,
+    "omega_triggers": 0,
+    "alpha_r": "d7bebf8054d88ca6",
+    "duration_ms": 848
+  },
+  {
+    "iteration": 44,
+    "puf_entropy": "b0481ed5011b172b2ba251f43c25ed20ed58d664cde02fe385220f156ba3b040",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.993779009885701,
+    "omega_triggers": 0,
+    "alpha_r": "5182c67fc88f9ec9",
+    "duration_ms": 851
+  },
+  {
+    "iteration": 45,
+    "puf_entropy": "e79e7630fcaccf5e49bcd515a13941da21c58005c3d066748e5e7d624286fd14",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9917989844610758,
+    "omega_triggers": 0,
+    "alpha_r": "ce0f5eaa0480a0f3",
+    "duration_ms": 868
+  },
+  {
+    "iteration": 46,
+    "puf_entropy": "00101770cd8a9e44af979ccf844638bfddad2a70c55ba81ca919d19e1c112da2",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9926892830845737,
+    "omega_triggers": 0,
+    "alpha_r": "f01bfd89b95e70de",
+    "duration_ms": 846
+  },
+  {
+    "iteration": 47,
+    "puf_entropy": "0a860259f53b42a6a0d7d1cea6b2b5a7326bd199f5e24613921568e4925e1e41",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9943340088171657,
+    "omega_triggers": 0,
+    "alpha_r": "4db0c9c003a4fcf8",
+    "duration_ms": 860
+  },
+  {
+    "iteration": 48,
+    "puf_entropy": "4ec6766d727ad85771080f5b52e59d4ba1469c9ff99d195744676230b55661a6",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9914181149961988,
+    "omega_triggers": 0,
+    "alpha_r": "7d7f158adf622e9a",
+    "duration_ms": 854
+  },
+  {
+    "iteration": 49,
+    "puf_entropy": "82892f0a9884358816862bba4d3b1908e8465380d770c18f5fd33b7988a00cce",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9935029604077004,
+    "omega_triggers": 0,
+    "alpha_r": "89a300c980477bec",
+    "duration_ms": 850
+  },
+  {
+    "iteration": 50,
+    "puf_entropy": "74f23846882a1e24328b6d0a80312ca4debe58d7a3daf38e7c7424a9b240942e",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9992563310735441,
+    "omega_triggers": 0,
+    "alpha_r": "2dc7d8c9d3c3d3e3",
+    "duration_ms": 838
+  },
+  {
+    "iteration": 51,
+    "puf_entropy": "c487c063f0571a3ac517e8934d8f242e8cb5259fe96d562a2ae87dad29c1e2b9",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9955438354316185,
+    "omega_triggers": 0,
+    "alpha_r": "83b8bc46cb2cfe2c",
+    "duration_ms": 852
+  },
+  {
+    "iteration": 52,
+    "puf_entropy": "dc0db159de2c8b0653060111f78eb05ee5e656b9b2b4de04e9fce46be283c5b5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9995779911962341,
+    "omega_triggers": 0,
+    "alpha_r": "797fded451680098",
+    "duration_ms": 862
+  },
+  {
+    "iteration": 53,
+    "puf_entropy": "d83db9c553ccc89492f64befb564be653443b90c5fd227c90501af8e1fea642e",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9960424769945154,
+    "omega_triggers": 0,
+    "alpha_r": "a375e0d93edcf97c",
+    "duration_ms": 849
+  },
+  {
+    "iteration": 54,
+    "puf_entropy": "dce453fc8d4142c0f51b15faad5b99bceba136db624875215501938ff71942d4",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9976283850596721,
+    "omega_triggers": 0,
+    "alpha_r": "c6686c409040a874",
+    "duration_ms": 874
+  },
+  {
+    "iteration": 55,
+    "puf_entropy": "6069d4d1129ffaa501a025fff0676f43db4a67c58e2c22e321d3b2cdf189ebc1",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9942312048480577,
+    "omega_triggers": 0,
+    "alpha_r": "0847dce41f4fbf3a",
+    "duration_ms": 869
+  },
+  {
+    "iteration": 56,
+    "puf_entropy": "38e951f3ea8c9d6b01c7816bdbe1d7b91be5f1399f23c050ea30f542f832a29d",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.999456798470712,
+    "omega_triggers": 0,
+    "alpha_r": "39e776a9dcfa6288",
+    "duration_ms": 886
+  },
+  {
+    "iteration": 57,
+    "puf_entropy": "d9e566831b6dfd75dd01e15c4208c9f69942e81525865825eef2c8cf252f832c",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9962912142009038,
+    "omega_triggers": 0,
+    "alpha_r": "f95ae7769db272ea",
+    "duration_ms": 864
+  },
+  {
+    "iteration": 58,
+    "puf_entropy": "4fb50e89ec6b76f495ec8cacea09ab1c0badfcba89884801fc432c02d42fde15",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9924307577700587,
+    "omega_triggers": 0,
+    "alpha_r": "d6c12d092f9ced75",
+    "duration_ms": 852
+  },
+  {
+    "iteration": 59,
+    "puf_entropy": "078147f6069a5bd5aa65cf679cc1716f495b6fc10e990037ab29a958c0db75b4",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9934631089578655,
+    "omega_triggers": 0,
+    "alpha_r": "fa0f79f104c8b355",
+    "duration_ms": 854
+  },
+  {
+    "iteration": 60,
+    "puf_entropy": "dc9b73a5bd9afaf2eef953e0df3fb7087900eed8cc200da87ceae44e2227a77f",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9921379540579528,
+    "omega_triggers": 0,
+    "alpha_r": "1f9b3c13eff09269",
+    "duration_ms": 864
+  },
+  {
+    "iteration": 61,
+    "puf_entropy": "49bc886b17cc4bba8d30d57d03d95b595dcc5886d25ddacd912a460055d79f2e",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9963728198943224,
+    "omega_triggers": 0,
+    "alpha_r": "1c655d7f1652b1e6",
+    "duration_ms": 864
+  },
+  {
+    "iteration": 62,
+    "puf_entropy": "4814f21c1e2ad339c7a770559396f1d37fc36b265494a6a21e2371bdf2445791",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9996768268821058,
+    "omega_triggers": 0,
+    "alpha_r": "442ed3f10f92bb5c",
+    "duration_ms": 870
+  },
+  {
+    "iteration": 63,
+    "puf_entropy": "55a5dbd66deb84b32c7b13ec9ba0b25565fc7b890db65cab99e58bac142970f7",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9966056794716288,
+    "omega_triggers": 0,
+    "alpha_r": "f6379e9990a86104",
+    "duration_ms": 866
+  },
+  {
+    "iteration": 64,
+    "puf_entropy": "7395f3f388903647bb6cb6aa2f5b19d0c3827244f5377f16d7930da70eeff2a7",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9990097971786327,
+    "omega_triggers": 0,
+    "alpha_r": "9ac194feed205de7",
+    "duration_ms": 856
+  },
+  {
+    "iteration": 65,
+    "puf_entropy": "0ba6703c00ec8d945666766266e61ccb0bb46f765aa380dc9f72044bd1061282",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9931495772023207,
+    "omega_triggers": 0,
+    "alpha_r": "a56f89c67bf670e2",
+    "duration_ms": 879
+  },
+  {
+    "iteration": 66,
+    "puf_entropy": "5a16d434b0f51641b3e7673797562ca84b16a5a129e4daaa97b12b87168bc4e4",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9974469505954878,
+    "omega_triggers": 0,
+    "alpha_r": "9c0075cdf73da989",
+    "duration_ms": 870
+  },
+  {
+    "iteration": 67,
+    "puf_entropy": "747b09740799a77c3715c323992fa813fc7420027b185d8d4ee85f3d0a5277e1",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.997410267236436,
+    "omega_triggers": 0,
+    "alpha_r": "29037c16e468db01",
+    "duration_ms": 951
+  },
+  {
+    "iteration": 68,
+    "puf_entropy": "e157bcb41d7ab847337bd25bfe784d302a8e0ec51f79ed5c9d8698fca61bda79",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9902933045803285,
+    "omega_triggers": 0,
+    "alpha_r": "b2c89142a6cf8330",
+    "duration_ms": 881
+  },
+  {
+    "iteration": 69,
+    "puf_entropy": "07494baca7fd13db47686840ff7de0a6ca960de303bce0f9d80c8fc7c05864b2",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9939679350698284,
+    "omega_triggers": 0,
+    "alpha_r": "91a35dfb7a1db72f",
+    "duration_ms": 840
+  },
+  {
+    "iteration": 70,
+    "puf_entropy": "aee4a511fad2a385e981845f522b2b6e5be38ed09fc799ede4ad9d431fb55a62",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.997564944993552,
+    "omega_triggers": 0,
+    "alpha_r": "e5cc8e351fcab309",
+    "duration_ms": 860
+  },
+  {
+    "iteration": 71,
+    "puf_entropy": "4730e2a3666ea8e7256c1f1ce0240402b3241e588df0a6a9cf91070318bf07b2",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9921616647036215,
+    "omega_triggers": 0,
+    "alpha_r": "33b889d9e39f515f",
+    "duration_ms": 870
+  },
+  {
+    "iteration": 72,
+    "puf_entropy": "4c7e23a899f0a12814fb701aeb9c8ea58516971857d1eda0ecbe019d0a693a02",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9933839165014072,
+    "omega_triggers": 0,
+    "alpha_r": "a62a593352aa974e",
+    "duration_ms": 898
+  },
+  {
+    "iteration": 73,
+    "puf_entropy": "3ffeab9e83faee3774eaca87c4798a7e382af26a99511d091b79d08fc5126293",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9901122391055683,
+    "omega_triggers": 0,
+    "alpha_r": "c350dcdb2853bcc0",
+    "duration_ms": 838
+  },
+  {
+    "iteration": 74,
+    "puf_entropy": "1545160926ca4dd86297aae8c166e5ebdcc5acea96159a9f501d6bb7f28b6efb",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9944327823540823,
+    "omega_triggers": 0,
+    "alpha_r": "2e9a35b453d4f988",
+    "duration_ms": 849
+  },
+  {
+    "iteration": 75,
+    "puf_entropy": "258930ff9be3ca186e6626fab4bf3a1ff5724243826be692d9cd28c621f839b5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9907893226862462,
+    "omega_triggers": 0,
+    "alpha_r": "64d8e5cf6f61ef86",
+    "duration_ms": 850
+  },
+  {
+    "iteration": 76,
+    "puf_entropy": "a7200ade1bd10b0226210c71f71fc689d55b6ec04e2c8571b863d8d9415623a8",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9928080696351671,
+    "omega_triggers": 0,
+    "alpha_r": "21567ed31e2f2cd3",
+    "duration_ms": 835
+  },
+  {
+    "iteration": 77,
+    "puf_entropy": "7aaac7a8f41e9ba1ca26227ccf4da519615c3da50f1ed2da78441474143ad612",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9958686671101256,
+    "omega_triggers": 0,
+    "alpha_r": "f61efc81fb192b98",
+    "duration_ms": 870
+  },
+  {
+    "iteration": 78,
+    "puf_entropy": "cf212c2de90beb1c41ecff25dc6fe161a7672ff4378872becb5268cc139fc0d8",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9995471775948462,
+    "omega_triggers": 0,
+    "alpha_r": "c0ce3c13eb9e0c49",
+    "duration_ms": 852
+  },
+  {
+    "iteration": 79,
+    "puf_entropy": "44b88c44069397064d065b90bea0471248bfad258b7e614edc17c36bb7c79506",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9971877642866883,
+    "omega_triggers": 0,
+    "alpha_r": "232b057cf6720a1b",
+    "duration_ms": 837
+  },
+  {
+    "iteration": 80,
+    "puf_entropy": "242f516fee2256ab697f5707e57972890ff64555d2ad32a3f9208c79ab4e3256",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9980988655817877,
+    "omega_triggers": 0,
+    "alpha_r": "d4f65455ab1f766c",
+    "duration_ms": 848
+  },
+  {
+    "iteration": 81,
+    "puf_entropy": "ab3ccf8120c9e103b56e3ce8083052bb14e492a07548024e1478bd2872810ff9",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9901779222815907,
+    "omega_triggers": 0,
+    "alpha_r": "bbca38f7ba157676",
+    "duration_ms": 878
+  },
+  {
+    "iteration": 82,
+    "puf_entropy": "81b8957286ac90f60c844669bbbf497cd0d17f01849b6fd5f357bafcf5e8d143",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9997354003949597,
+    "omega_triggers": 0,
+    "alpha_r": "48172206a1ab0b09",
+    "duration_ms": 909
+  },
+  {
+    "iteration": 83,
+    "puf_entropy": "e95fe7fcbd1472db135eca36594c533f3774d046c1437a5ed268ebe47f81f163",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9965609990813848,
+    "omega_triggers": 0,
+    "alpha_r": "0a9bf7a8930162ef",
+    "duration_ms": 888
+  },
+  {
+    "iteration": 84,
+    "puf_entropy": "2398b03ef7ae881b7a314c10a84697e938c78c3b374c04fff9d67a6a90245c60",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9954922100187863,
+    "omega_triggers": 0,
+    "alpha_r": "2db2b2d82676a65b",
+    "duration_ms": 851
+  },
+  {
+    "iteration": 85,
+    "puf_entropy": "5fddaa3a60262b88a48f869ffe1a2fb9d53858f07360465eee72bb2f27c34230",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9972926497141422,
+    "omega_triggers": 0,
+    "alpha_r": "0964b74def70f80c",
+    "duration_ms": 856
+  },
+  {
+    "iteration": 86,
+    "puf_entropy": "b0e44dee31bf9b5b7df30c5f7b438a20f8a87ecdf2795ba57c15a34b2b70cdf5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.993218945468349,
+    "omega_triggers": 0,
+    "alpha_r": "03228b5e77582aca",
+    "duration_ms": 854
+  },
+  {
+    "iteration": 87,
+    "puf_entropy": "6573a0c4bbc3d91a1a33a8c076bc55be94acc155a7649ebf6b09b378c874e297",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9996871828819834,
+    "omega_triggers": 0,
+    "alpha_r": "b7a9acc366c821e1",
+    "duration_ms": 884
+  },
+  {
+    "iteration": 88,
+    "puf_entropy": "d3c8da39bb0d2b696075d21e50daa0f9c9eddacd7d7cf12dd009a48a629ed491",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9970775758852991,
+    "omega_triggers": 0,
+    "alpha_r": "b61d97aa837ea7b3",
+    "duration_ms": 861
+  },
+  {
+    "iteration": 89,
+    "puf_entropy": "12b5227be930da64687d4c71e61e01529ed697a695e5160e8f78dedd1f2f5de4",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9970538248990284,
+    "omega_triggers": 0,
+    "alpha_r": "8c411023232ea650",
+    "duration_ms": 866
+  },
+  {
+    "iteration": 90,
+    "puf_entropy": "7b3adb20171324cb6c8c13976fcae9f48d20071b1956360c9cd3ec9249e0d9ce",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9994643020176354,
+    "omega_triggers": 0,
+    "alpha_r": "6a94736bced6c373",
+    "duration_ms": 858
+  },
+  {
+    "iteration": 91,
+    "puf_entropy": "67d0dac83e320a1e77f2c092626aab31782d8b9712702dff3f1142f66622a370",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.996037278341436,
+    "omega_triggers": 0,
+    "alpha_r": "995af19c8dd857f4",
+    "duration_ms": 856
+  },
+  {
+    "iteration": 92,
+    "puf_entropy": "2b2b60b814853e1fa1e1968f9ac530df88791916fe8f37d9696bae4049850b84",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9969945986165858,
+    "omega_triggers": 0,
+    "alpha_r": "4369de7c7f184c35",
+    "duration_ms": 851
+  },
+  {
+    "iteration": 93,
+    "puf_entropy": "b76a7c9bdd2ef5c24afc8dcd2c17db3a084505ab15195b8ca693c7beab3164dd",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9963853520939427,
+    "omega_triggers": 0,
+    "alpha_r": "6c5f12d245a6e7e5",
+    "duration_ms": 843
+  },
+  {
+    "iteration": 94,
+    "puf_entropy": "9d877dfa1259c92e5efc3d9c6e3498869330665d6468956b7efb0b2297303dbe",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9937081522709251,
+    "omega_triggers": 0,
+    "alpha_r": "7396d1c3ffc34bfc",
+    "duration_ms": 847
+  },
+  {
+    "iteration": 95,
+    "puf_entropy": "b4b329045f9dc8f5a7565b863ca2b104ea3a02ebf507798032a00486febd7025",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.995294970493266,
+    "omega_triggers": 0,
+    "alpha_r": "5139e0b07fe86773",
+    "duration_ms": 845
+  },
+  {
+    "iteration": 96,
+    "puf_entropy": "e77e3bb6def191a78c2942956a12ebceafe435dd696c6747b8dafbec8fa8f5b9",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.992846963343578,
+    "omega_triggers": 0,
+    "alpha_r": "d1107168d926f129",
+    "duration_ms": 860
+  },
+  {
+    "iteration": 97,
+    "puf_entropy": "dd67b6c3cdd68faafa98cc5142784f86b2628b7bb93cbbbfaec4b2ce69e37f10",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9924634863803933,
+    "omega_triggers": 0,
+    "alpha_r": "5c33882da6f63356",
+    "duration_ms": 875
+  },
+  {
+    "iteration": 98,
+    "puf_entropy": "35917890e37fd462cea7becf440d038f04324bd155b02b772738104bf3b638f2",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.996862473336753,
+    "omega_triggers": 0,
+    "alpha_r": "98e3a95859f5e821",
+    "duration_ms": 860
+  },
+  {
+    "iteration": 99,
+    "puf_entropy": "79fc89859ec390955f453a7af94bf5896ad1cbc94b9a1d9ad2571e67eeace86f",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.991072707458973,
+    "omega_triggers": 0,
+    "alpha_r": "8fa7bbfaf056cb56",
+    "duration_ms": 869
+  },
+  {
+    "iteration": 100,
+    "puf_entropy": "14a07e4247fcc8166aa6398585faaf89698c4fff3a9e1b6a17d142324da9cc5c",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9932896627819559,
+    "omega_triggers": 0,
+    "alpha_r": "0c23bd049d3e3335",
+    "duration_ms": 852
+  },
+  {
+    "iteration": 101,
+    "puf_entropy": "c947fcd833f0f764f215772f3ca67d02913ced43189acefc7a4c5ff89b5b1442",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9953393503344831,
+    "omega_triggers": 0,
+    "alpha_r": "bc8a478cb93a25d9",
+    "duration_ms": 841
+  },
+  {
+    "iteration": 102,
+    "puf_entropy": "9bd1e9b5d3ed1c8e47a2d86c9b1b7ea9ac6830caab9b3f472ca94b17c0221320",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9948137357745739,
+    "omega_triggers": 0,
+    "alpha_r": "0fbe233088be37de",
+    "duration_ms": 883
+  },
+  {
+    "iteration": 103,
+    "puf_entropy": "ff0c599f0bfa7f38bbe1df35f01854ba757a2267608b27d7b94cac3f9ef51104",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9952815807880908,
+    "omega_triggers": 0,
+    "alpha_r": "a0a8d7201b61f46e",
+    "duration_ms": 933
+  },
+  {
+    "iteration": 104,
+    "puf_entropy": "fe336be3bedac24235e8d40e9bfd36d8f404550986b04ca0550ca6bc8d816fe8",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9960213459162152,
+    "omega_triggers": 0,
+    "alpha_r": "52ab1b1a8bc2d133",
+    "duration_ms": 874
+  },
+  {
+    "iteration": 105,
+    "puf_entropy": "4d8a1bd2b90a2f29f3a1300a73b8f7910bcf341e0bd48707d79500862f7822fc",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9969581270977188,
+    "omega_triggers": 0,
+    "alpha_r": "42437fcd77607fcf",
+    "duration_ms": 868
+  },
+  {
+    "iteration": 106,
+    "puf_entropy": "0ffa8e9f164747413738b8a022bbb20b7a7078c9a23e9eb7205bf264d081e2f1",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9988085930238078,
+    "omega_triggers": 0,
+    "alpha_r": "bf74d8dfb822db75",
+    "duration_ms": 856
+  },
+  {
+    "iteration": 107,
+    "puf_entropy": "b9d631010e73696282247141f5ab24153512dfaff85afbe3368a0b2f8395a28f",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9914602097446453,
+    "omega_triggers": 0,
+    "alpha_r": "ea78ea4ea1e3b817",
+    "duration_ms": 869
+  },
+  {
+    "iteration": 108,
+    "puf_entropy": "0d70618f5a8b78c8cf436b236116f2613fa32c78fb51ccc6ed11be289f5b7f86",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9996187163499589,
+    "omega_triggers": 0,
+    "alpha_r": "56ab110f9cc87992",
+    "duration_ms": 860
+  },
+  {
+    "iteration": 109,
+    "puf_entropy": "48458ff9fa6cba49bc1cb27a7120b5bb7d4c5feffaad23c6613cb2c56e311c67",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9975029891727555,
+    "omega_triggers": 0,
+    "alpha_r": "a43fa12015aa8ef3",
+    "duration_ms": 857
+  },
+  {
+    "iteration": 110,
+    "puf_entropy": "f8284c0398eaa34332a6f52eff6d7fdfeaf4cdae11bd03e9110e4a32d9a1ab7c",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9904263866261056,
+    "omega_triggers": 0,
+    "alpha_r": "16c7d73637588d58",
+    "duration_ms": 878
+  },
+  {
+    "iteration": 111,
+    "puf_entropy": "6b51bbea5b04a492817fddc74a55a2506982762f1c3bc3d30951041842fcb9d4",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9988897454115707,
+    "omega_triggers": 0,
+    "alpha_r": "69ffabb7dccbb8aa",
+    "duration_ms": 850
+  },
+  {
+    "iteration": 112,
+    "puf_entropy": "7fdca3576a1bdb46938743a8d3f1f16f7b7d4004b7c8743de968221e4205f215",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9909829911853087,
+    "omega_triggers": 0,
+    "alpha_r": "2cf95b72d0428d84",
+    "duration_ms": 953
+  },
+  {
+    "iteration": 113,
+    "puf_entropy": "020280f7288b9710687fd0bd5d1070e3b81c22d4025e6909a9ba1bb9d54356ae",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9929840928473885,
+    "omega_triggers": 0,
+    "alpha_r": "0d2c15f70fe079f7",
+    "duration_ms": 967
+  },
+  {
+    "iteration": 114,
+    "puf_entropy": "34f9a7142ba7e05cf9947b4df263c538e3f3f412a02b60acb3ba57581ba4de18",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9919168714606726,
+    "omega_triggers": 0,
+    "alpha_r": "4bb2a7b9ff0b1eb2",
+    "duration_ms": 928
+  },
+  {
+    "iteration": 115,
+    "puf_entropy": "77bc3ecb3c8c6341c00e987e57afe5de58e7dfa4696c213fedfb6a6063ec1740",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9980099351235615,
+    "omega_triggers": 0,
+    "alpha_r": "aae7ef983f26a905",
+    "duration_ms": 883
+  },
+  {
+    "iteration": 116,
+    "puf_entropy": "944b438a27defbfff62e1a03bfcd7ecf3b8e40c7b2410af54ccf6992344a9764",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9992545580605658,
+    "omega_triggers": 0,
+    "alpha_r": "eb7a7785e31b02f6",
+    "duration_ms": 870
+  },
+  {
+    "iteration": 117,
+    "puf_entropy": "295bd34563b91925f42cda2fe6e8a6493b024cdbf9b10104360c473f4a61f17f",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9984974794895095,
+    "omega_triggers": 0,
+    "alpha_r": "9a56a105a49e2e0e",
+    "duration_ms": 877
+  },
+  {
+    "iteration": 118,
+    "puf_entropy": "a53ace2682ed23da5adc370572d3e78717af94e1c45e694faf049997b57cc014",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9969347620890784,
+    "omega_triggers": 0,
+    "alpha_r": "6efb351b726bd3d1",
+    "duration_ms": 874
+  },
+  {
+    "iteration": 119,
+    "puf_entropy": "a9179101643419c855103f35a854e84878a0fa9897411836dca09ddfe89651e4",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9950576953091015,
+    "omega_triggers": 0,
+    "alpha_r": "3c9459ecab19639d",
+    "duration_ms": 885
+  },
+  {
+    "iteration": 120,
+    "puf_entropy": "4d357eba27240f5f4d0ab5395c6315d493d1ad250b8ff8d03ab6ee97f2a8d786",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.998423161962947,
+    "omega_triggers": 0,
+    "alpha_r": "c3dfdcba1781765c",
+    "duration_ms": 868
+  },
+  {
+    "iteration": 121,
+    "puf_entropy": "0170a5c49bbc02dc993f00ad4dfa210061714fbdd87dcce6b75faff76e565ac5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9971862705856065,
+    "omega_triggers": 0,
+    "alpha_r": "0d38d285fc8ff09d",
+    "duration_ms": 849
+  },
+  {
+    "iteration": 122,
+    "puf_entropy": "397af17178df6db110b3f8850d15d7f4c91e70b2fbbfdf56d339055b5d9dfd0a",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9997253459031329,
+    "omega_triggers": 0,
+    "alpha_r": "87e0c9f1fe01c044",
+    "duration_ms": 934
+  },
+  {
+    "iteration": 123,
+    "puf_entropy": "d3766ffcbba13624cb6f3d510275a81a05b5e8bcdb2d02c377b5f6a32338159b",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9996710586314121,
+    "omega_triggers": 0,
+    "alpha_r": "4ea3fff013b09412",
+    "duration_ms": 1242
+  },
+  {
+    "iteration": 124,
+    "puf_entropy": "f531938a376b67c4d391a302547e17f1a34ea83e1ef80b5ab8c8c029437f6a33",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9965870981069782,
+    "omega_triggers": 0,
+    "alpha_r": "8c5c7c694ed05a13",
+    "duration_ms": 1275
+  },
+  {
+    "iteration": 125,
+    "puf_entropy": "4a36119f82b139eecc6532fffd56e1ff0dafa2f28d4210350bcee0537b778e10",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9923924216775856,
+    "omega_triggers": 0,
+    "alpha_r": "f02a31796d4b306b",
+    "duration_ms": 1117
+  },
+  {
+    "iteration": 126,
+    "puf_entropy": "719b9f8e8d28f6c2edc62a83cf1b225d9b450cf51c5c1e40301c7deb4d92b5a5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9991236423017449,
+    "omega_triggers": 0,
+    "alpha_r": "f8f0157537a8b7b0",
+    "duration_ms": 884
+  },
+  {
+    "iteration": 127,
+    "puf_entropy": "b8ebfa60f00cc1c190fe40dd7f03b9317c97728be5284aa41a92b6b55225da36",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9949482672752019,
+    "omega_triggers": 0,
+    "alpha_r": "1bbc79d81f87f120",
+    "duration_ms": 885
+  },
+  {
+    "iteration": 128,
+    "puf_entropy": "aa84c989c6c416c6d98ad0c60248ba676231c4a334c4bb15b1ddb607018cbc3b",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9992986908547329,
+    "omega_triggers": 0,
+    "alpha_r": "167f037feb9a8f8f",
+    "duration_ms": 854
+  },
+  {
+    "iteration": 129,
+    "puf_entropy": "200a40a830239431d2cab8e2bebee5b8d0210bae2be7cea87f74e5be53642049",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9989668147588812,
+    "omega_triggers": 0,
+    "alpha_r": "9693df8ab93073b5",
+    "duration_ms": 856
+  },
+  {
+    "iteration": 130,
+    "puf_entropy": "3c8adec673275c97e6da63205b4a449db68fd00e98d0e852faa1397e32e5e319",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9941560955187212,
+    "omega_triggers": 0,
+    "alpha_r": "904cc89dd7176015",
+    "duration_ms": 858
+  },
+  {
+    "iteration": 131,
+    "puf_entropy": "dd8eb637af6477d73c1e2649b16c20451a3e0644932be1f43c1c49e032dd69bc",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.995299869702739,
+    "omega_triggers": 0,
+    "alpha_r": "6e550204a5b41197",
+    "duration_ms": 847
+  },
+  {
+    "iteration": 132,
+    "puf_entropy": "73b82b4b5a2eda36588f4797c3e842e45bdff86b9020e58a405fea8e62d5488f",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9967125449172922,
+    "omega_triggers": 0,
+    "alpha_r": "88151884696c6c8c",
+    "duration_ms": 871
+  },
+  {
+    "iteration": 133,
+    "puf_entropy": "354ddb2c1acddbbabd69f8d263184ac4364e4e8ebfa78d465d44e4b1a6947ca9",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9914997002849814,
+    "omega_triggers": 0,
+    "alpha_r": "de812933cf9d945a",
+    "duration_ms": 858
+  },
+  {
+    "iteration": 134,
+    "puf_entropy": "b47a81aea26c7bfb0c5b775ce6eacf5f5c87dd0d425ab5d5e2c9f08a6a44f825",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9920449719276829,
+    "omega_triggers": 0,
+    "alpha_r": "3e6667475a23c269",
+    "duration_ms": 844
+  },
+  {
+    "iteration": 135,
+    "puf_entropy": "8050c5b4b7dd1231f8a5dff00b61e7c007524dd3f7b626433264b3ab23c5cfa9",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9937736041506675,
+    "omega_triggers": 0,
+    "alpha_r": "889da504976bf025",
+    "duration_ms": 857
+  },
+  {
+    "iteration": 136,
+    "puf_entropy": "92ca890c52923dfc0b1756d44e4666e37deeb3c0a83a785ed47891b349974d2d",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9963737565627327,
+    "omega_triggers": 0,
+    "alpha_r": "9a45259fd8e96196",
+    "duration_ms": 862
+  },
+  {
+    "iteration": 137,
+    "puf_entropy": "178057beb45f22569941161578c820a53bdce465d748e2d16be3f7cd2c5470de",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9932574745707218,
+    "omega_triggers": 0,
+    "alpha_r": "a52068429b85c4f2",
+    "duration_ms": 857
+  },
+  {
+    "iteration": 138,
+    "puf_entropy": "2f406f21b2aa7f4f4176ceea8fd2074f8cb6645dcbcdb1df246cbe34ba74d7cd",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9994677499598179,
+    "omega_triggers": 0,
+    "alpha_r": "dd61d35eda6968b4",
+    "duration_ms": 870
+  },
+  {
+    "iteration": 139,
+    "puf_entropy": "78a94a3000787f3358d312281e6563c704dbd4a28ef2dbd0decf931da8877dc1",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9923053991263747,
+    "omega_triggers": 0,
+    "alpha_r": "2e0578b436aa0941",
+    "duration_ms": 855
+  },
+  {
+    "iteration": 140,
+    "puf_entropy": "5fd54abd1986ea7c09a9bed6bb7d89b678357d2f2ebf77cc7164d543055eb33f",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9913204201936822,
+    "omega_triggers": 0,
+    "alpha_r": "91de7c1bdc4322bf",
+    "duration_ms": 888
+  },
+  {
+    "iteration": 141,
+    "puf_entropy": "f30b9fe705220b0574338a70914202b5a33f341fc96d6d93c3f271c2d6415c22",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.991710856794252,
+    "omega_triggers": 0,
+    "alpha_r": "cefb783bd327532c",
+    "duration_ms": 909
+  },
+  {
+    "iteration": 142,
+    "puf_entropy": "f263a24515c585f403ca77e7cd8185dc4d2bb993c24465b169232fdb0bb226aa",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9974842306933679,
+    "omega_triggers": 0,
+    "alpha_r": "20aa370cdaf27937",
+    "duration_ms": 869
+  },
+  {
+    "iteration": 143,
+    "puf_entropy": "97525add3f287d57f94ef220c940e3b503d57e7cd6f7ab2c30f8870b3a061487",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9918029795501834,
+    "omega_triggers": 0,
+    "alpha_r": "8c435feb1f239c36",
+    "duration_ms": 887
+  },
+  {
+    "iteration": 144,
+    "puf_entropy": "f6a7b1b1b27c553d02780a795cfee735229b9ae1f099f3756b784157433bf188",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9939156119448986,
+    "omega_triggers": 0,
+    "alpha_r": "ba9ad1015abe0b15",
+    "duration_ms": 891
+  },
+  {
+    "iteration": 145,
+    "puf_entropy": "761142c93a6aab1d55e52f431e2ad5d33656cbc79e1d790464c30e9970fbf7fb",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9998798508980078,
+    "omega_triggers": 0,
+    "alpha_r": "a637c228492c5b9a",
+    "duration_ms": 884
+  },
+  {
+    "iteration": 146,
+    "puf_entropy": "b33774066debf895efc387c73a9c9b23d19a89924b6300fc576fc538fd47ab9b",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9959308463393054,
+    "omega_triggers": 0,
+    "alpha_r": "94182a2b8145af96",
+    "duration_ms": 881
+  },
+  {
+    "iteration": 147,
+    "puf_entropy": "197a90b7da3c2e549342b3d7c2f4648ab7bfb6e8dbdede52694b6843468e4d5f",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9942193399680607,
+    "omega_triggers": 0,
+    "alpha_r": "89b8a18f8edef57e",
+    "duration_ms": 887
+  },
+  {
+    "iteration": 148,
+    "puf_entropy": "aaaca2021e4e5fa3a6f1c6a11f8e936c3260100c7ab1d8f61479d20799619008",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9976619079299155,
+    "omega_triggers": 0,
+    "alpha_r": "3318041f52b7f72c",
+    "duration_ms": 883
+  },
+  {
+    "iteration": 149,
+    "puf_entropy": "28e73bea98ea3ec184bb0372021a4bff2bc0e8fda37d865cbd37de2fe12a8f44",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9955968715873805,
+    "omega_triggers": 0,
+    "alpha_r": "c99c146442f12e0c",
+    "duration_ms": 890
+  },
+  {
+    "iteration": 150,
+    "puf_entropy": "f80893838fe49ffc4cee638a8682f19e8bc7202b4fc979a2c171d14002dc1b35",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9988652646602916,
+    "omega_triggers": 0,
+    "alpha_r": "9e81e3f6e678a659",
+    "duration_ms": 863
+  },
+  {
+    "iteration": 151,
+    "puf_entropy": "7d62aa4d379af53c2d9a88f8e50a99ffa38238ea35ce0230dd6c2fc3ea0027ac",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9938559912417614,
+    "omega_triggers": 0,
+    "alpha_r": "0af75ad36fca0fbe",
+    "duration_ms": 851
+  },
+  {
+    "iteration": 152,
+    "puf_entropy": "b8b22880bff75ba84e3a2bb3356f57ada74cbcef4fdb39faab4acfba37219e6e",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.990054031046698,
+    "omega_triggers": 0,
+    "alpha_r": "b68f661d8dd518ee",
+    "duration_ms": 880
+  },
+  {
+    "iteration": 153,
+    "puf_entropy": "c08dd8c7ece0a5a5f76b392d63a9edfec67959ce2b72f70735128bdc5981a971",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9962563372213995,
+    "omega_triggers": 0,
+    "alpha_r": "a209e7d36d60058f",
+    "duration_ms": 873
+  },
+  {
+    "iteration": 154,
+    "puf_entropy": "ce3fbf374357f5e05073df70fa1665855e8ecdc04d41889400bd8289fdd235e1",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.999338569311066,
+    "omega_triggers": 0,
+    "alpha_r": "7447674c5e2dece6",
+    "duration_ms": 893
+  },
+  {
+    "iteration": 155,
+    "puf_entropy": "d7957e65848f199884879aa21fd31481442d6a6a194a9012ca1b57d3c0848f15",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.996594680481813,
+    "omega_triggers": 0,
+    "alpha_r": "6ac4a54fd320e3a2",
+    "duration_ms": 915
+  },
+  {
+    "iteration": 156,
+    "puf_entropy": "f4b66ee4b15397f2825722aae3a8c84ea24caa6344a31722b5afcaed3dfcaf77",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9928666380125142,
+    "omega_triggers": 0,
+    "alpha_r": "8186f9dc49996ebf",
+    "duration_ms": 917
+  },
+  {
+    "iteration": 157,
+    "puf_entropy": "e149a2484214f76884ea761bd0ace10f74852ef3c627dd932ae0dd8880d70885",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9986655474777384,
+    "omega_triggers": 0,
+    "alpha_r": "a4bcf451690ac053",
+    "duration_ms": 865
+  },
+  {
+    "iteration": 158,
+    "puf_entropy": "9c0a4d61447dc65f23039895dd5bb82b2d46c61f1d245e9508bb0e7ae879f89d",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9992402727495948,
+    "omega_triggers": 0,
+    "alpha_r": "8a8ffdeea775409e",
+    "duration_ms": 893
+  },
+  {
+    "iteration": 159,
+    "puf_entropy": "e24956e1915e6c5bb70f73f53ea1d00e2559b73bf55d5fa95b45ee3412c33a55",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9963535614380487,
+    "omega_triggers": 0,
+    "alpha_r": "3d771ab9185f5731",
+    "duration_ms": 863
+  },
+  {
+    "iteration": 160,
+    "puf_entropy": "841ea95e980ca0150f90f25065c449ea1967ae54bce11603dfb09bc5844e86ab",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9971468905265132,
+    "omega_triggers": 0,
+    "alpha_r": "b078e6527a087625",
+    "duration_ms": 852
+  },
+  {
+    "iteration": 161,
+    "puf_entropy": "c9a6d8b043f42edcc54bbff0423fba1bfb806652310931fd4893783eac16affd",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.993211835621631,
+    "omega_triggers": 0,
+    "alpha_r": "0f65c817fa088396",
+    "duration_ms": 853
+  },
+  {
+    "iteration": 162,
+    "puf_entropy": "a2e180f12c90351a9a478426f4b224f8ef2a9ade15e8fcc12e78f4ab3bc26560",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9973288590356133,
+    "omega_triggers": 0,
+    "alpha_r": "aff72fa8be72992f",
+    "duration_ms": 859
+  },
+  {
+    "iteration": 163,
+    "puf_entropy": "722e3d6eb8ebda30beeaa81214dbac3431fc72ce8f11a2cfbc755f829e4240ce",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9904976365642707,
+    "omega_triggers": 0,
+    "alpha_r": "f6069882dc6de456",
+    "duration_ms": 844
+  },
+  {
+    "iteration": 164,
+    "puf_entropy": "e55b831ebc418f6797ed2270a06778dac856a8cbe71694fc2889feacb8e08fa1",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9981234976340005,
+    "omega_triggers": 0,
+    "alpha_r": "e09f20bc550ed727",
+    "duration_ms": 855
+  },
+  {
+    "iteration": 165,
+    "puf_entropy": "07177c093d6a76f5ab7e9d92b270e318d8b9a09c4102ea480192cb22043c50b4",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9907846525481108,
+    "omega_triggers": 0,
+    "alpha_r": "0fe3b001e0523776",
+    "duration_ms": 858
+  },
+  {
+    "iteration": 166,
+    "puf_entropy": "2904186926eaee6c40536296009a7ea76e560b47617aac71d09205b363ccc641",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9902779915106751,
+    "omega_triggers": 0,
+    "alpha_r": "c523816998a88fae",
+    "duration_ms": 840
+  },
+  {
+    "iteration": 167,
+    "puf_entropy": "487508a1601b658449ba025f18fd4fe33bb4fcd9a1a847846e2671a5bcc611d8",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9990157642348703,
+    "omega_triggers": 0,
+    "alpha_r": "359425258d19ba6e",
+    "duration_ms": 850
+  },
+  {
+    "iteration": 168,
+    "puf_entropy": "dc9ebbd6f312888da9bc4b305c7a50d21d17bf5c042dae6c1ce78b91dbbc0461",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9967467247417072,
+    "omega_triggers": 0,
+    "alpha_r": "74bb2861c8c46a9b",
+    "duration_ms": 853
+  },
+  {
+    "iteration": 169,
+    "puf_entropy": "b02fe7058669ddcbd5e2d418d72d185721ba1da423e8a34d7baaf90cf7796e82",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9971187887252939,
+    "omega_triggers": 0,
+    "alpha_r": "f3f39403a8bfc3d0",
+    "duration_ms": 852
+  },
+  {
+    "iteration": 170,
+    "puf_entropy": "58b8faa0d664512be0159c6bfb31243e5575114717a8b194f7a68e4b44ec6114",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9912760390517661,
+    "omega_triggers": 0,
+    "alpha_r": "577e7630bcc16859",
+    "duration_ms": 854
+  },
+  {
+    "iteration": 171,
+    "puf_entropy": "fa4c95adbb277f39fa74a61b5aad724725703bd08cf6648dd0179661e350868b",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9986740923229935,
+    "omega_triggers": 0,
+    "alpha_r": "ce072fef2725568f",
+    "duration_ms": 856
+  },
+  {
+    "iteration": 172,
+    "puf_entropy": "8abed92adb15183f5bb2f8e5f66b942f51f7fa3dfeb9f84625b65f3bdb760936",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9960975710761982,
+    "omega_triggers": 0,
+    "alpha_r": "7569a9edd8bd8859",
+    "duration_ms": 878
+  },
+  {
+    "iteration": 173,
+    "puf_entropy": "a62eddf9122dc4935fb52a15146fd1d3f5a6743ca90cc96af81ee4b7b5df3552",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9915230120724101,
+    "omega_triggers": 0,
+    "alpha_r": "155fd75b90ddc89a",
+    "duration_ms": 844
+  },
+  {
+    "iteration": 174,
+    "puf_entropy": "a8db8899a1cfe41074442f66a880bddd5ff9f9d6e359dc945c685a36afb6f333",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9937292123288765,
+    "omega_triggers": 0,
+    "alpha_r": "296d9176cb198a08",
+    "duration_ms": 864
+  },
+  {
+    "iteration": 175,
+    "puf_entropy": "3421aedd621d3123ce559609761dee3c4d05a2abd125b57639c3bdebaceecbcf",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9911646274264403,
+    "omega_triggers": 0,
+    "alpha_r": "53cdd4404a0646e9",
+    "duration_ms": 836
+  },
+  {
+    "iteration": 176,
+    "puf_entropy": "19e8da4de356ddf243f55361eadfa4f58e7d5114c2f9246af8f606318b1e0bac",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9987598659221048,
+    "omega_triggers": 0,
+    "alpha_r": "b7eaedc6818ff6bd",
+    "duration_ms": 885
+  },
+  {
+    "iteration": 177,
+    "puf_entropy": "f708e45fa066db95528449cb4a12e539f7095eea9a85d1a0ad9556560b68ccf7",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9979693365755223,
+    "omega_triggers": 0,
+    "alpha_r": "8402670e02646687",
+    "duration_ms": 859
+  },
+  {
+    "iteration": 178,
+    "puf_entropy": "3e63af2e24e3b69adbe36bd56ec1b7fffb4ae24be35c8a7c02758c42f9778b13",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9985497322457395,
+    "omega_triggers": 0,
+    "alpha_r": "b934f1553e6cf30c",
+    "duration_ms": 850
+  },
+  {
+    "iteration": 179,
+    "puf_entropy": "240cbd4364e2272631e0cd310e9d3dd0119dbee520b6a0e66ee8a1d9d52b78c9",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9900684714613446,
+    "omega_triggers": 0,
+    "alpha_r": "05d9d9a57b96eda5",
+    "duration_ms": 846
+  },
+  {
+    "iteration": 180,
+    "puf_entropy": "4684171dab4c63b6dca5d6317ea09dc11f569a97a54d5d8ed2090de7a99b4c4c",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9911376942554375,
+    "omega_triggers": 0,
+    "alpha_r": "326ace83c15bd194",
+    "duration_ms": 837
+  },
+  {
+    "iteration": 181,
+    "puf_entropy": "adc43e753ddacfa961928f7c168d297fcefb911671e88d93991efa582e3be5ff",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9997831814682127,
+    "omega_triggers": 0,
+    "alpha_r": "4b6fd0352e30ceb8",
+    "duration_ms": 861
+  },
+  {
+    "iteration": 182,
+    "puf_entropy": "a9883c45c11cec2057cabf6c992a010eb997631d36a419e6c2b536ed5e691180",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9911542195578765,
+    "omega_triggers": 0,
+    "alpha_r": "03faa73c0636e6ea",
+    "duration_ms": 863
+  },
+  {
+    "iteration": 183,
+    "puf_entropy": "0ee1fc17ef3fbd62386fb7f80627272e45a3b03be5fafe0039e38fd74aae5ac0",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9970256498174691,
+    "omega_triggers": 0,
+    "alpha_r": "30cb160c2bf86a09",
+    "duration_ms": 861
+  },
+  {
+    "iteration": 184,
+    "puf_entropy": "532a4ff08f56bdc303e6a9628ea52e57039f4df5c3021b0eb48c6390dcaefa64",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9921604166005571,
+    "omega_triggers": 0,
+    "alpha_r": "28758250f81bd168",
+    "duration_ms": 840
+  },
+  {
+    "iteration": 185,
+    "puf_entropy": "aa0c136d023848c0d39b28487da2cfbce9a96024fb227cd5d03d608b667ef898",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9959075647215556,
+    "omega_triggers": 0,
+    "alpha_r": "6678b686d4685aed",
+    "duration_ms": 853
+  },
+  {
+    "iteration": 186,
+    "puf_entropy": "fa69b7827819c9316deec3d1ef5b7687966f7c2bf58798b24f04f24f918b18e5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.995264998847957,
+    "omega_triggers": 0,
+    "alpha_r": "a6b0744d9a43ea31",
+    "duration_ms": 821
+  },
+  {
+    "iteration": 187,
+    "puf_entropy": "e605d589b871ce761a0907d49e6da607e2068df1080d6c129c8c8508fdf200fa",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9923370838428018,
+    "omega_triggers": 0,
+    "alpha_r": "e5e0fc3269ef92a0",
+    "duration_ms": 849
+  },
+  {
+    "iteration": 188,
+    "puf_entropy": "0cb6ad25937752b66d7f5745557908ec7cb0ec911d7caddd6edc3f34cbb28667",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9960555788986121,
+    "omega_triggers": 0,
+    "alpha_r": "74941c948f290f56",
+    "duration_ms": 834
+  },
+  {
+    "iteration": 189,
+    "puf_entropy": "b8c8c5677d752c08b8915dae6e436391bcdd8fff17bc28a31b71f80e5c02a561",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9994939591718444,
+    "omega_triggers": 0,
+    "alpha_r": "e7018b7f7eb04a6e",
+    "duration_ms": 842
+  },
+  {
+    "iteration": 190,
+    "puf_entropy": "61b809239732e99e131dc41af0fcaef394a72a380d8d42102e3c86f35fd93e1a",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9979033196729133,
+    "omega_triggers": 0,
+    "alpha_r": "181863cf623265bc",
+    "duration_ms": 861
+  },
+  {
+    "iteration": 191,
+    "puf_entropy": "6f7064789338406e5eb61547e84d91b9d419f82ea62bba2de16ae472c332e2d8",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9942961182890243,
+    "omega_triggers": 0,
+    "alpha_r": "91267085d3b90778",
+    "duration_ms": 847
+  },
+  {
+    "iteration": 192,
+    "puf_entropy": "d98ac81d69a326a71f47fa0b6ac60a9a840b7b52203e13dad64b878e8485358a",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9944225343098729,
+    "omega_triggers": 0,
+    "alpha_r": "cda309e6bda8f283",
+    "duration_ms": 863
+  },
+  {
+    "iteration": 193,
+    "puf_entropy": "caae31479c74d7b62dd7c645d0c6b1efbf2e752278cfdbf24ed02be3547e88f2",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9912549379992637,
+    "omega_triggers": 0,
+    "alpha_r": "aec7b249b55032d7",
+    "duration_ms": 906
+  },
+  {
+    "iteration": 194,
+    "puf_entropy": "f569adffc5c12fe44bceb08040f83772a1b2ca483362ad33923ecbfaf7bacf3f",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9953293942748076,
+    "omega_triggers": 0,
+    "alpha_r": "ec3796378d138ee2",
+    "duration_ms": 864
+  },
+  {
+    "iteration": 195,
+    "puf_entropy": "3461bc61ad65ea12b67f01d9a14e3ec762c509e377f9f16463f36e1aee8ca89c",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9913046477232882,
+    "omega_triggers": 0,
+    "alpha_r": "c2c34493ee9e2aae",
+    "duration_ms": 835
+  },
+  {
+    "iteration": 196,
+    "puf_entropy": "206615e287c0ebf322752f5340b62107fce6e0e545af1809c24f901f74f6f8da",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9936848596704891,
+    "omega_triggers": 0,
+    "alpha_r": "d0724ecac867d20c",
+    "duration_ms": 853
+  },
+  {
+    "iteration": 197,
+    "puf_entropy": "e75c2b05944e01c8a3d10ed750dfca424530a8507a0d80699a724c0970e352be",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9996485140637673,
+    "omega_triggers": 0,
+    "alpha_r": "9791bb8f08b2f8ff",
+    "duration_ms": 875
+  },
+  {
+    "iteration": 198,
+    "puf_entropy": "2029cdadb2fc1c378fed1aae16a4218374687cd399161a380624aaeec0af4533",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9952599675224686,
+    "omega_triggers": 0,
+    "alpha_r": "ffd4ff1c865a9df6",
+    "duration_ms": 858
+  },
+  {
+    "iteration": 199,
+    "puf_entropy": "40c1c1fab7f3d40ee375e73997d140bd980aae97522428f2535a2fb541e3a9f0",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9969584923040321,
+    "omega_triggers": 0,
+    "alpha_r": "429c473e8fde216f",
+    "duration_ms": 842
+  },
+  {
+    "iteration": 200,
+    "puf_entropy": "d20cca1879d2671956e6b5cf403f249d18a22b13203821e6763f7184b14ed73b",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9923853407881311,
+    "omega_triggers": 0,
+    "alpha_r": "8a1310764c87aea5",
+    "duration_ms": 870
+  },
+  {
+    "iteration": 201,
+    "puf_entropy": "c824fd027fba3842f98179e1b0ff4e86375900adee345aba8f3e8f6d29072180",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9997488741097413,
+    "omega_triggers": 0,
+    "alpha_r": "40a3ecb2b1a2a2b7",
+    "duration_ms": 886
+  },
+  {
+    "iteration": 202,
+    "puf_entropy": "238763a0305aff2ca17cd30f7a92f8812899223cc1ddb43ff829806088f6dd53",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9999917747269544,
+    "omega_triggers": 0,
+    "alpha_r": "73255b7934461479",
+    "duration_ms": 848
+  },
+  {
+    "iteration": 203,
+    "puf_entropy": "13fb08b8b95e6b41342a33163e004c535174c8dbb99ee11c535c76aad2f0865e",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.99692851234768,
+    "omega_triggers": 0,
+    "alpha_r": "b7674b46ce32aafe",
+    "duration_ms": 855
+  },
+  {
+    "iteration": 204,
+    "puf_entropy": "4be15b419c4f6283e4b409b57bce944ba6132ee0234bcc7718f1b4529a678a80",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9939273256427369,
+    "omega_triggers": 0,
+    "alpha_r": "f9c2313ed79f6970",
+    "duration_ms": 900
+  },
+  {
+    "iteration": 205,
+    "puf_entropy": "b249f6420f23e60a2b8594e82c4ea46c6a56fcfea31279e0ef5a8f2037df6347",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.99541761692856,
+    "omega_triggers": 0,
+    "alpha_r": "acfa3750902b3dd7",
+    "duration_ms": 908
+  },
+  {
+    "iteration": 206,
+    "puf_entropy": "27557bff612b186506fdb529e1eb945fde1af1d9eb5a29c2afd37eb5ddf3415a",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9903143047048226,
+    "omega_triggers": 0,
+    "alpha_r": "e0c684d7439b3741",
+    "duration_ms": 882
+  },
+  {
+    "iteration": 207,
+    "puf_entropy": "6f731e77bca2391ac7e182cf6abb1ca39d8a99ed761f7998e28e7dae74a08c09",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9916827178611335,
+    "omega_triggers": 0,
+    "alpha_r": "7197fd5cfb90b8a1",
+    "duration_ms": 860
+  },
+  {
+    "iteration": 208,
+    "puf_entropy": "94e9c72283b2aff97d618c297fce3f8f5d3fb219eb25eb2b892f620af1a7e25a",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9957520359758293,
+    "omega_triggers": 0,
+    "alpha_r": "8a77a1a21bcbba6c",
+    "duration_ms": 889
+  },
+  {
+    "iteration": 209,
+    "puf_entropy": "5b97fc874a4ebb02ee823fce2be8f59d4316af0f3db19bf56a8e55ada63d3e47",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9971695684026839,
+    "omega_triggers": 0,
+    "alpha_r": "66d1bf6642708135",
+    "duration_ms": 888
+  },
+  {
+    "iteration": 210,
+    "puf_entropy": "c5da2db7f1e3dc8733ced37ad9c68bd1e7cb1ff251c81268cad37445d68fd007",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9941527507328755,
+    "omega_triggers": 0,
+    "alpha_r": "706abf7a02055a5e",
+    "duration_ms": 861
+  },
+  {
+    "iteration": 211,
+    "puf_entropy": "939a9f1201ea290bf32c0eb5574cd62f6d53a40850e0d9395a3fb4bace157bfe",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9910191150433759,
+    "omega_triggers": 0,
+    "alpha_r": "cac9dc8368d17fcf",
+    "duration_ms": 892
+  },
+  {
+    "iteration": 212,
+    "puf_entropy": "7fe5b5040406bd8a6de0fbd587831615e6b896fbc23cf27e5dda4e4d9a6cafee",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9947111582091296,
+    "omega_triggers": 0,
+    "alpha_r": "df72e66f11a170df",
+    "duration_ms": 865
+  },
+  {
+    "iteration": 213,
+    "puf_entropy": "e7c8566b12065ab992203045064c996673ee10a8159ef89a51a444bd7e341a5d",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9910685275577708,
+    "omega_triggers": 0,
+    "alpha_r": "f29b4b9686dc0c62",
+    "duration_ms": 880
+  },
+  {
+    "iteration": 214,
+    "puf_entropy": "0c125ab24ff673dc9c68d786b1f046596d37c958cddf240a612286ba43bf97cc",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9906016754398972,
+    "omega_triggers": 0,
+    "alpha_r": "917ed0265d8b459d",
+    "duration_ms": 900
+  },
+  {
+    "iteration": 215,
+    "puf_entropy": "de0a789be2df6201357e4b2b70198ea2e4cde71054dda9ebcfb0c0bdd5b96635",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9913020478609983,
+    "omega_triggers": 0,
+    "alpha_r": "98802ee00fe82ac0",
+    "duration_ms": 905
+  },
+  {
+    "iteration": 216,
+    "puf_entropy": "810bc563eca2b716534456d080b11bea68f7906944a9f99d2d4ab23fdd986555",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9962322303706598,
+    "omega_triggers": 0,
+    "alpha_r": "733cef6fe65689d6",
+    "duration_ms": 885
+  },
+  {
+    "iteration": 217,
+    "puf_entropy": "e8737e7dc913416693455e4ccba7c3fed9769acbc7ed1ff083027166bddecbba",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9965067096466643,
+    "omega_triggers": 0,
+    "alpha_r": "1222375ece5e846f",
+    "duration_ms": 841
+  },
+  {
+    "iteration": 218,
+    "puf_entropy": "c4336efbca56d47d4e66d298bb03a9ef018e82331373e6196938ed495804d267",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9954036187573209,
+    "omega_triggers": 0,
+    "alpha_r": "4d406f4d3a6cacc4",
+    "duration_ms": 851
+  },
+  {
+    "iteration": 219,
+    "puf_entropy": "2735ec7867936e59b92672b832c148c1ff1ab940c29de2d865d3185c97ed0be8",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9986706179004271,
+    "omega_triggers": 0,
+    "alpha_r": "cc321785fdaaff95",
+    "duration_ms": 846
+  },
+  {
+    "iteration": 220,
+    "puf_entropy": "8b2d8fe313463164e224811297e1b080212eabc2d8430aa72825f42d7452969c",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9957243225117547,
+    "omega_triggers": 0,
+    "alpha_r": "3b67af52d21f08b5",
+    "duration_ms": 859
+  },
+  {
+    "iteration": 221,
+    "puf_entropy": "5a0e032cc8fca3d10bd289f33e92ede7f68b51e342a35b49ba2b8b7a7b8c782f",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9947169978509953,
+    "omega_triggers": 0,
+    "alpha_r": "f2c6baea72359e0d",
+    "duration_ms": 856
+  },
+  {
+    "iteration": 222,
+    "puf_entropy": "89ad836bb53aa0ab411ed677673dcffc5b0576607f6c80f9f40b975eb5967895",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9999619384465335,
+    "omega_triggers": 0,
+    "alpha_r": "e9f2b44f6f09a66c",
+    "duration_ms": 845
+  },
+  {
+    "iteration": 223,
+    "puf_entropy": "b9b75c9b06a9c9bed2241997c8945ec358a3fbd2f7f46850fd744971893facb9",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9988026853392332,
+    "omega_triggers": 0,
+    "alpha_r": "ef95df03a00a6925",
+    "duration_ms": 855
+  },
+  {
+    "iteration": 224,
+    "puf_entropy": "a949f320171b709805480bb2a4fa3f9d7381f5024f71113d684db7afce72dc4c",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9987623252800234,
+    "omega_triggers": 0,
+    "alpha_r": "8d50ef922df69913",
+    "duration_ms": 873
+  },
+  {
+    "iteration": 225,
+    "puf_entropy": "ebd9d95ae137ddf7492f0f2c97da93c261c6f0f524e9c4b529529fca3bc0f316",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.995460812335918,
+    "omega_triggers": 0,
+    "alpha_r": "d88c23ab55dce15f",
+    "duration_ms": 882
+  },
+  {
+    "iteration": 226,
+    "puf_entropy": "6bdd6c4b15263526c8b632144b8d1df7732ef222dd30acbaf5e8f285d47126a0",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.990967797184018,
+    "omega_triggers": 0,
+    "alpha_r": "e4fbe46feab6823e",
+    "duration_ms": 864
+  },
+  {
+    "iteration": 227,
+    "puf_entropy": "be2bbbaa53a26dbf2a3b9dac9f746466046641d877c7cdaa0efde61f441e5f31",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9901490901540136,
+    "omega_triggers": 0,
+    "alpha_r": "bc3a8b5084865923",
+    "duration_ms": 865
+  },
+  {
+    "iteration": 228,
+    "puf_entropy": "6046451f6695150a377b401e99fb39197bd282880bfb59c52a18d5f2a536d7db",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9908397655140292,
+    "omega_triggers": 0,
+    "alpha_r": "ee9ff8e8f9c4d131",
+    "duration_ms": 862
+  },
+  {
+    "iteration": 229,
+    "puf_entropy": "ad0cf1072036c6934b6a2760c465d88e351a6ad2ec792418f1e74c630c10e9aa",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9942971720524996,
+    "omega_triggers": 0,
+    "alpha_r": "f164b40a136694c5",
+    "duration_ms": 865
+  },
+  {
+    "iteration": 230,
+    "puf_entropy": "6efb3fbb73f53c9ff3676814db5092377eef0a0489ed86bf9cebb1dbcac90f62",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9995666871784117,
+    "omega_triggers": 0,
+    "alpha_r": "ee8c972ee7a6009b",
+    "duration_ms": 856
+  },
+  {
+    "iteration": 231,
+    "puf_entropy": "ba0483cc47e35300658477c9ad71e5860627cb216c757711b2a7163f39251ef3",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9919720907915047,
+    "omega_triggers": 0,
+    "alpha_r": "322ebf4a01f766b8",
+    "duration_ms": 858
+  },
+  {
+    "iteration": 232,
+    "puf_entropy": "db9c4c953b2cf8f95afb6043e64d39a8f9ab3cbb7311f84a86055b7788ea12fc",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9987633152784916,
+    "omega_triggers": 0,
+    "alpha_r": "9b53354d86f5c4ef",
+    "duration_ms": 872
+  },
+  {
+    "iteration": 233,
+    "puf_entropy": "2e7b2b68a01d684889c12c39dcc114c31bd634341a5decffeba231045d15d6fd",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9903903753500977,
+    "omega_triggers": 0,
+    "alpha_r": "3640a0f031f237f4",
+    "duration_ms": 854
+  },
+  {
+    "iteration": 234,
+    "puf_entropy": "7c5e9bb5427f2840e286e525c667767cc788524f4fe6aeec90b7e193581c3d6c",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9948926638398098,
+    "omega_triggers": 0,
+    "alpha_r": "c158a9abe57aee27",
+    "duration_ms": 862
+  },
+  {
+    "iteration": 235,
+    "puf_entropy": "a3dff536b1a20604fe9a98edb82c9f24ffa23293e28f2e686580f8b0382ab647",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9991476066745426,
+    "omega_triggers": 0,
+    "alpha_r": "eda8c55d6840ff4b",
+    "duration_ms": 857
+  },
+  {
+    "iteration": 236,
+    "puf_entropy": "bb7ff0f5c81a7a4344da5e81e80e6255c98443e491ae64b030241badd4ac236b",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9944691090711021,
+    "omega_triggers": 0,
+    "alpha_r": "8156a8867cdc1f1a",
+    "duration_ms": 879
+  },
+  {
+    "iteration": 237,
+    "puf_entropy": "7dcc4cfa8cec3f9a27f076af763fe3a4e720c0f5b8aff52a268854a4235b2c2d",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9933593726117346,
+    "omega_triggers": 0,
+    "alpha_r": "1cf43fd595c48a79",
+    "duration_ms": 860
+  },
+  {
+    "iteration": 238,
+    "puf_entropy": "2360553973852db09f408b793ba6c2facf0fe8f1e74c0cf41d954cd5a64659b5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9989730569344635,
+    "omega_triggers": 0,
+    "alpha_r": "892b97cd7cf1337e",
+    "duration_ms": 846
+  },
+  {
+    "iteration": 239,
+    "puf_entropy": "6457092f9092d18ef21fe3ab06712458ac20182450c80b493ced7a93009067f1",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9954901043392442,
+    "omega_triggers": 0,
+    "alpha_r": "9743993c12f189d3",
+    "duration_ms": 847
+  },
+  {
+    "iteration": 240,
+    "puf_entropy": "db3dfd1116025384c446651173d1204d11d6a16ac19d8e367e4cb0116325f083",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9995973919711725,
+    "omega_triggers": 0,
+    "alpha_r": "77b17ca246b01abc",
+    "duration_ms": 851
+  },
+  {
+    "iteration": 241,
+    "puf_entropy": "42e036056d6ba2323e8025df2421810658a48f244c8224190c8cf336fecff57b",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9960284599334579,
+    "omega_triggers": 0,
+    "alpha_r": "3339a34fc3694122",
+    "duration_ms": 860
+  },
+  {
+    "iteration": 242,
+    "puf_entropy": "bc6064f3b30cd11f0545868ded581f61fe08f9154a5bfb319da4abf94be71519",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9975188885572301,
+    "omega_triggers": 0,
+    "alpha_r": "4214256e61e66e0f",
+    "duration_ms": 850
+  },
+  {
+    "iteration": 243,
+    "puf_entropy": "3f66ea8792baffd48555c81999a7c17fad9bc15c9348df7c64bfaf890d408064",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9920981730177363,
+    "omega_triggers": 0,
+    "alpha_r": "1e66959b5f410b27",
+    "duration_ms": 857
+  },
+  {
+    "iteration": 244,
+    "puf_entropy": "5eaf23bda0a30655ef606125fc1fcc5d489138210cbdc64ff09150a7070530df",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9962294210258285,
+    "omega_triggers": 0,
+    "alpha_r": "c832041a0cc417b0",
+    "duration_ms": 842
+  },
+  {
+    "iteration": 245,
+    "puf_entropy": "5de5ac43f4aa0d6616cf1f96fc9a5153f2da3bb856f4ba50fe24734e5b9859e2",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9932982349008389,
+    "omega_triggers": 0,
+    "alpha_r": "e21218e1e73d0a76",
+    "duration_ms": 858
+  },
+  {
+    "iteration": 246,
+    "puf_entropy": "847784e5c1890941917e9685faba7c63a48478e6799e9b669d0afdd403a8cf3a",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9932484485142572,
+    "omega_triggers": 0,
+    "alpha_r": "9ed5822463ee1084",
+    "duration_ms": 870
+  },
+  {
+    "iteration": 247,
+    "puf_entropy": "9d0ec2f027f49dc30c8dee6d940d3dd6149cfec3f12614dc51214573db192193",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9938163365791548,
+    "omega_triggers": 0,
+    "alpha_r": "6ce84b0683983380",
+    "duration_ms": 868
+  },
+  {
+    "iteration": 248,
+    "puf_entropy": "11daca470ec3d11268dac3ee9ce1588e85449eb5f921e6798d9a0e0bcebaad70",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9911703318689724,
+    "omega_triggers": 0,
+    "alpha_r": "eff15a941eccff49",
+    "duration_ms": 870
+  },
+  {
+    "iteration": 249,
+    "puf_entropy": "ac6579263acdb850445f3494a29f74551fd996513a35ab023db80c8bf7ca9e47",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9945861739566134,
+    "omega_triggers": 0,
+    "alpha_r": "29b8f46be3d81ddd",
+    "duration_ms": 871
+  },
+  {
+    "iteration": 250,
+    "puf_entropy": "29d1124e01e75cb965e09bf268c45612976389c5364ae6345cccb2d7009f56d5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9977350999123186,
+    "omega_triggers": 0,
+    "alpha_r": "56d59bdc30af037c",
+    "duration_ms": 854
+  },
+  {
+    "iteration": 251,
+    "puf_entropy": "4ae36c85080becd455ac20c84df082ed9d3636886fefb0ecf10054313f2520b3",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9942298459958663,
+    "omega_triggers": 0,
+    "alpha_r": "d593865655b9bc89",
+    "duration_ms": 874
+  },
+  {
+    "iteration": 252,
+    "puf_entropy": "81b5793f18040a1c4be729d850d4c070ea820682935eaefeb26f9b4c8602fc16",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9944167706671976,
+    "omega_triggers": 0,
+    "alpha_r": "522a0d65f5b7f965",
+    "duration_ms": 966
+  },
+  {
+    "iteration": 253,
+    "puf_entropy": "2b3742ff34337a599edb0173ec45b8b2a7e308575a8f86b1215b31621dcfbeb8",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9974339776723758,
+    "omega_triggers": 0,
+    "alpha_r": "07473b7cc4e671ad",
+    "duration_ms": 927
+  },
+  {
+    "iteration": 254,
+    "puf_entropy": "70918298d649cd8037230fcb74b8c642ae20bb369a29096847329994d0f078af",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9972927513732457,
+    "omega_triggers": 0,
+    "alpha_r": "67126e0b96ea2bba",
+    "duration_ms": 868
+  },
+  {
+    "iteration": 255,
+    "puf_entropy": "082be5b3e65c95aa3087452e21bfce5941203655196a9392fb4dff017cb93ed8",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9914176099621251,
+    "omega_triggers": 0,
+    "alpha_r": "65cd9993a477ca65",
+    "duration_ms": 887
+  },
+  {
+    "iteration": 256,
+    "puf_entropy": "17cc998a9c309a981d67fd8bc889ff9b864eb05ef417c661c29a333aa0d01b48",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9957207189255576,
+    "omega_triggers": 0,
+    "alpha_r": "eba16016f84496e1",
+    "duration_ms": 897
+  },
+  {
+    "iteration": 257,
+    "puf_entropy": "c06718fc590b4afc2944a35a6247177dce809a07cc8be6cad7fa79479b1af12f",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9997807088232422,
+    "omega_triggers": 0,
+    "alpha_r": "2fe278b5612fe4c4",
+    "duration_ms": 873
+  },
+  {
+    "iteration": 258,
+    "puf_entropy": "1a93ae32020b42d0a3f736d4d3a551e2bbb7cb2cd659362f0a1ec9e966847169",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9986957844454293,
+    "omega_triggers": 0,
+    "alpha_r": "c84c0be8893da235",
+    "duration_ms": 864
+  },
+  {
+    "iteration": 259,
+    "puf_entropy": "9632532a6cb0253cf5ab94f90b019742d65cfc29601b561df2b5aa84c341f8c5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9926880376963261,
+    "omega_triggers": 0,
+    "alpha_r": "d7f6c3e205961505",
+    "duration_ms": 870
+  },
+  {
+    "iteration": 260,
+    "puf_entropy": "e37206a67ba3a07eb99ea9a688860455db1a7bab6a86e26c4b945e0a43f43ada",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9949055519407133,
+    "omega_triggers": 0,
+    "alpha_r": "384f147f7bcb2ab4",
+    "duration_ms": 855
+  },
+  {
+    "iteration": 261,
+    "puf_entropy": "76fc8e3ec7744721cd0604e5bf5e975d99682011329bf00e67f7907073053ff8",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9990267377086064,
+    "omega_triggers": 0,
+    "alpha_r": "ce1047a3c8eb069d",
+    "duration_ms": 856
+  },
+  {
+    "iteration": 262,
+    "puf_entropy": "e97b67758f8a8c67b92ac055df5cb46b37883ff024005dd59ced2dedb4810b23",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9923698348177519,
+    "omega_triggers": 0,
+    "alpha_r": "10b73d5b2c3d4211",
+    "duration_ms": 878
+  },
+  {
+    "iteration": 263,
+    "puf_entropy": "182caa8c1f97b41dee0588b230bb82735ca1f68eba12eeb51b19f0b9c506b79c",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9931790957317495,
+    "omega_triggers": 0,
+    "alpha_r": "8dcdb17fd74cf3c1",
+    "duration_ms": 878
+  },
+  {
+    "iteration": 264,
+    "puf_entropy": "6860499958cfe507cc54502488b47d742e460d9d213b2da012980bc90f158f97",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9931637449773113,
+    "omega_triggers": 0,
+    "alpha_r": "c696de3c426f370c",
+    "duration_ms": 894
+  },
+  {
+    "iteration": 265,
+    "puf_entropy": "52755a7734f9bd8f13ced52ccfaaa624099e92698e917ffa50f8f4a55cb986a4",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9907714173279265,
+    "omega_triggers": 0,
+    "alpha_r": "dd137229dfbd9190",
+    "duration_ms": 881
+  },
+  {
+    "iteration": 266,
+    "puf_entropy": "776f267100433a2dae589f499cb363673715a8352174c304c66f4d5c5b60f28a",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9904918499814355,
+    "omega_triggers": 0,
+    "alpha_r": "7ea0f0804b8272df",
+    "duration_ms": 874
+  },
+  {
+    "iteration": 267,
+    "puf_entropy": "2d8b91cab4293f16fd03ba545e47ad6823d29d5d2ff4e60c507d9f7316931844",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9912484041961664,
+    "omega_triggers": 0,
+    "alpha_r": "0f739446cfc64667",
+    "duration_ms": 873
+  },
+  {
+    "iteration": 268,
+    "puf_entropy": "57b9d2b6f128831b819c79dd660d1a188a4f938fe186e5deac5c6724f7cc517a",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9997934898521436,
+    "omega_triggers": 1,
+    "alpha_r": "be20bab10681bd6f",
+    "duration_ms": 895
+  },
+  {
+    "iteration": 269,
+    "puf_entropy": "64ad4e3f3087b306086507ec35892cc7ed1fa5ce0d03ae23f26746c6654f78ca",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9968975920050038,
+    "omega_triggers": 0,
+    "alpha_r": "2bf582878ad92e99",
+    "duration_ms": 889
+  },
+  {
+    "iteration": 270,
+    "puf_entropy": "84ae3f7f88d56b6d40976033eac7491fd29daf8e0a8ec13e58635e1c6bb41574",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9982567987995233,
+    "omega_triggers": 0,
+    "alpha_r": "3eaf8eecc10fc915",
+    "duration_ms": 862
+  },
+  {
+    "iteration": 271,
+    "puf_entropy": "b1c55d8a30182fb8f692a60d0f2a50c1d2ea23dfa12b2c0437aa5c985400f915",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9972513909070114,
+    "omega_triggers": 0,
+    "alpha_r": "c24cbcc0263df407",
+    "duration_ms": 862
+  },
+  {
+    "iteration": 272,
+    "puf_entropy": "076efbfa96cdefe6c0af18e85961dcde3d2d3ea1e28f3085cfd63ee25f983084",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9944819044186023,
+    "omega_triggers": 0,
+    "alpha_r": "28f3e46ba462fe5b",
+    "duration_ms": 932
+  },
+  {
+    "iteration": 273,
+    "puf_entropy": "d194312601370d5a56203f31e37ec97e7e1fb601001d59b46aec10f85fe9d459",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9934880666925968,
+    "omega_triggers": 0,
+    "alpha_r": "9822d02b1b3711af",
+    "duration_ms": 884
+  },
+  {
+    "iteration": 274,
+    "puf_entropy": "1e5c5d38976b4024b6542c2a252fd7518a3b5eedc11d86ac49c967ccb90e17d6",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9945094856315647,
+    "omega_triggers": 0,
+    "alpha_r": "e5516a57c173b9d1",
+    "duration_ms": 886
+  },
+  {
+    "iteration": 275,
+    "puf_entropy": "d07a6b1a251a3a7f771a40f48dacb84fb1a4a4693d62bd400041130fe6e5eda5",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9932126556590051,
+    "omega_triggers": 0,
+    "alpha_r": "5eed5f0237fd61de",
+    "duration_ms": 884
+  },
+  {
+    "iteration": 276,
+    "puf_entropy": "4e67b365f4d2968be9db50b2a923da01a2df9b8fddf1d77c44e2cc338c252bc7",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9987660009411367,
+    "omega_triggers": 0,
+    "alpha_r": "1f397e1f19b89f88",
+    "duration_ms": 867
+  },
+  {
+    "iteration": 277,
+    "puf_entropy": "95e00cf66aeceed11854361a43bc7e7b146afd88f3df1521bf96df2b0c53f371",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9916835872531979,
+    "omega_triggers": 0,
+    "alpha_r": "d972a982f8fbcf1b",
+    "duration_ms": 887
+  },
+  {
+    "iteration": 278,
+    "puf_entropy": "017d24d46df7150658140d78481e377602cac3be8e8067d9b14382d01cfa1321",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9952752912096887,
+    "omega_triggers": 0,
+    "alpha_r": "fe5390d6df7b484d",
+    "duration_ms": 880
+  },
+  {
+    "iteration": 279,
+    "puf_entropy": "112929d2fc573a533602a9e499b5e606fc45057404926b50085cbaf02169097d",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9983882849002796,
+    "omega_triggers": 0,
+    "alpha_r": "0eb3f4f13473cd90",
+    "duration_ms": 869
+  },
+  {
+    "iteration": 280,
+    "puf_entropy": "45a30156577fe97fa65b611e4a5f485cc11742bb1e3c4952740b0210b5d86b81",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.997133163851671,
+    "omega_triggers": 0,
+    "alpha_r": "01f7b2fc87a2afca",
+    "duration_ms": 894
+  },
+  {
+    "iteration": 281,
+    "puf_entropy": "e9ecd4957b33643d26e1f6ec2dae50bb5dc56bec612da6ae0707a752aeb952de",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9980610165968432,
+    "omega_triggers": 0,
+    "alpha_r": "3ea8e70db0f945f3",
+    "duration_ms": 935
+  },
+  {
+    "iteration": 282,
+    "puf_entropy": "d79d0b04df7681d06804d27216705d55d8d06855fbdbc273a7122fd07ac0af34",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9959858949885528,
+    "omega_triggers": 0,
+    "alpha_r": "e8b598bcd391c8e6",
+    "duration_ms": 971
+  },
+  {
+    "iteration": 283,
+    "puf_entropy": "b9ddac1e7a3b8ffbf35015d936b46b3dd6313d0dc4bff78f20a6a436b15870b6",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9952021075458178,
+    "omega_triggers": 0,
+    "alpha_r": "f5182cbca5f87ecd",
+    "duration_ms": 1159
+  },
+  {
+    "iteration": 284,
+    "puf_entropy": "983237decad78cc442098590b1974b2327095f52c991ee1efa2f4b6631700e21",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9987557962318507,
+    "omega_triggers": 1,
+    "alpha_r": "eb9831eb55f127c3",
+    "duration_ms": 961
+  },
+  {
+    "iteration": 285,
+    "puf_entropy": "39f6c66d666c944bda6f7bd34d4659194d64b1e6939fd44e26650e09f1e2cd36",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9953434924771278,
+    "omega_triggers": 0,
+    "alpha_r": "74fc7185fed5ddb7",
+    "duration_ms": 901
+  },
+  {
+    "iteration": 286,
+    "puf_entropy": "52d3681420967e9bc7dc8514370d0d8efcfc7269471169ee3a5cd79dadb2f6c7",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9974912591583506,
+    "omega_triggers": 0,
+    "alpha_r": "30465fa9cb7a9200",
+    "duration_ms": 887
+  },
+  {
+    "iteration": 287,
+    "puf_entropy": "63489038554baece2a99afec9dfba03b850d61cb3aa4a59039eb05bdc2cf5c1b",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9919930569277072,
+    "omega_triggers": 0,
+    "alpha_r": "3a428ae8cc10201f",
+    "duration_ms": 866
+  },
+  {
+    "iteration": 288,
+    "puf_entropy": "1ff631a87452e9608330263dfea9642168cae7f7b2c5ce9f707998c919e62f17",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9995549848260215,
+    "omega_triggers": 0,
+    "alpha_r": "ece456bfadae5a5e",
+    "duration_ms": 848
+  },
+  {
+    "iteration": 289,
+    "puf_entropy": "c9de4264d30b6a7e0306ea952fe89f3fdc23d14ebc660c8ba9234f8a2a37f0d6",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9957615782172616,
+    "omega_triggers": 0,
+    "alpha_r": "a896374311f88cba",
+    "duration_ms": 892
+  },
+  {
+    "iteration": 290,
+    "puf_entropy": "678b9e78273520c8eaa0b16977b75b99a30f7bab08cdc5cd6a5637e1afc58cda",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9958709509799025,
+    "omega_triggers": 0,
+    "alpha_r": "46c53c38de187b2d",
+    "duration_ms": 868
+  },
+  {
+    "iteration": 291,
+    "puf_entropy": "c3fe729444ad174549128a96d0541cbcb2e3d01f37cb38e84373321c4613db45",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9939725442451476,
+    "omega_triggers": 0,
+    "alpha_r": "5c16337b01f18921",
+    "duration_ms": 866
+  },
+  {
+    "iteration": 292,
+    "puf_entropy": "58632ccf0ce5b94b77528868a5b003b9145001f067643aff1b017f805e459ecb",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9912706379026548,
+    "omega_triggers": 0,
+    "alpha_r": "4f745d77323e47fe",
+    "duration_ms": 841
+  },
+  {
+    "iteration": 293,
+    "puf_entropy": "66c970e7729558d5b18c41967819d36c2d20c4c925231ef4977da84d83eb66d2",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9966518271303018,
+    "omega_triggers": 0,
+    "alpha_r": "3b37cbce3ac02044",
+    "duration_ms": 860
+  },
+  {
+    "iteration": 294,
+    "puf_entropy": "2002566e7884ed4a15ab9fe9c57e26748462e7ddb9ac6e22c009e40235ef492d",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.999679199113761,
+    "omega_triggers": 0,
+    "alpha_r": "dbf32b6c49e156af",
+    "duration_ms": 856
+  },
+  {
+    "iteration": 295,
+    "puf_entropy": "0147223d14d856ca3a77d3ef20686fe0d6145371706b2c2cc0b83db1adddca5e",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9988959350986651,
+    "omega_triggers": 0,
+    "alpha_r": "97e95aad95affa90",
+    "duration_ms": 884
+  },
+  {
+    "iteration": 296,
+    "puf_entropy": "041685111be31ab6d29c2bc3af483663a414a9e3bada08d2734794472ace1b1a",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.990198278327314,
+    "omega_triggers": 0,
+    "alpha_r": "4f9bbade0003606b",
+    "duration_ms": 867
+  },
+  {
+    "iteration": 297,
+    "puf_entropy": "bbcc06696d7dc7aabb2db0bd9c53488ed338c1134a8c691f8b535830765efaf6",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.993269729624062,
+    "omega_triggers": 0,
+    "alpha_r": "85ae4f142b40980f",
+    "duration_ms": 870
+  },
+  {
+    "iteration": 298,
+    "puf_entropy": "e8cbef7065165ffef37bd4d901267aaa64afe0fca6ae0ea6d1d4ebec85c6e446",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9984343407321526,
+    "omega_triggers": 0,
+    "alpha_r": "8fb4e97b8489467d",
+    "duration_ms": 919
+  },
+  {
+    "iteration": 299,
+    "puf_entropy": "845ad8948b9dd10f3d02190cc3a3857da1725066c0478337ecef9cd39049c902",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9910000750981725,
+    "omega_triggers": 0,
+    "alpha_r": "cc3aa0fbb38f4ee7",
+    "duration_ms": 893
+  },
+  {
+    "iteration": 300,
+    "puf_entropy": "89b5964cc7923352afd6a74294f62e35ea2507f6ec694e19fcafe301760c91cb",
+    "wasm_hash": "85dbd0ff09e1ab23e094b41e439c3556b11a6cae3e8cebad299d4bb735eeb4b4",
+    "replay_match": true,
+    "psi_stability": 0.9985584313137724,
+    "omega_triggers": 0,
+    "alpha_r": "12f8e1db77ae03ce",
+    "duration_ms": 893
+  }
+]

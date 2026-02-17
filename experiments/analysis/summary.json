@@ -1,0 +1,8 @@
+{
+  "total_iterations": 1000,
+  "replay_match_rate": 100.0,
+  "avg_psi_stability": 0.9950413347369282,
+  "total_omega_triggers": 7,
+  "avg_duration_ms": 897.706,
+  "std_duration_ms": 51.66318465453566
+}
