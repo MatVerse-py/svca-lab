@@ -1,6 +1,7 @@
 """Run with: python -m physiology --help"""
 import argparse
 import json
+import time
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 
@@ -19,6 +20,9 @@ def main():
         tick.add_argument("--"+field, type=float, default=default)
     demo = sub.add_parser("demo")
     demo.add_argument("--ticks", type=int, default=90)
+    live = sub.add_parser("live")
+    live.add_argument("--interval", type=float, default=1.0)
+    live.add_argument("--cycles", type=int, default=0, help="0=continuous until interrupted")
     sub.add_parser("verify")
     sub.add_parser("state")
     server = sub.add_parser("serve")
@@ -46,6 +50,19 @@ def main():
         print(json.dumps({"ticks": state.tick, "nodes": len(state.nodes),
                           "fissions": state.fissions, "work": state.work,
                           "verification": store.replay()}, indent=2))
+    elif args.command == "live":
+        if args.interval <= 0 or args.cycles < 0:
+            parser.error("interval > 0 and cycles >= 0 required")
+        i = 0
+        try:
+            while args.cycles == 0 or i < args.cycles:
+                state = store.tick(Perturbation())
+                print(json.dumps({"tick": state.tick, "nodes": len(state.nodes),
+                                  "work": state.work, "mode": "SYNTHETIC_LOCAL"}), flush=True)
+                i += 1
+                time.sleep(args.interval)
+        except KeyboardInterrupt:
+            print("LOCAL_ENGINE_STOPPED; state persisted")
     elif args.command == "verify":
         print(json.dumps(store.replay(), indent=2))
     elif args.command == "state":
