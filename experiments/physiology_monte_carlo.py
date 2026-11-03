@@ -10,19 +10,24 @@ from physiology.core import Colony, Perturbation, evolve
 
 
 def run(seed, governed, ticks):
+    """Independent stochastic scenarios, but IDENTICAL signals between arms."""
+    rng = random.Random(seed)
     colony = Colony.genesis(seed)
+    first = 8 + (seed % 11)
+    second = 49 + ((seed * 7) % 13)
     for t in range(ticks):
-        shock = .97 if t % 55 in range(14, 38) else (.05 if t % 2 else .18)
-        demand = 2.3 if shock > .5 else .65
-        signal = Perturbation(demand=demand, shock=shock, supply=1.5,
-                              heterogeneity=.93 if shock > .5 else .2,
-                              coupling=.08 if shock > .5 else .78)
+        during_shock = (first <= t < first + 14) or (second <= t < second + 15)
+        shock = (.88 + .12 * rng.random()) if during_shock else (.02 + .28 * rng.random())
+        demand = (1.7 + 1.8*rng.random()) if during_shock else (.4 + 1.35*rng.random())
+        supply = 1.0 + .8*rng.random()
+        signal = Perturbation(demand=demand, shock=shock, supply=supply,
+                              heterogeneity=(.85+.15*rng.random()) if during_shock else .25,
+                              coupling=(.02+.17*rng.random()) if during_shock else .80)
         colony = evolve(colony, signal, governed=governed)
     return {"work": colony.work, "fissions": colony.fissions,
             "nodes": len(colony.nodes), "backlog": sum(n.backlog for n in colony.nodes.values()),
             "energy": sum(n.energy for n in colony.nodes.values()),
             "risk": max(n.cvar or 0 for n in colony.nodes.values())}
-
 
 def bootstrap_mean_ci(values, seed=42, replicates=1000):
     rng = random.Random(seed)
