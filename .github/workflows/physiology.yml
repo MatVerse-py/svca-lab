@@ -1,0 +1,24 @@
+name: Experimental physiology (local proofs only)
+on:
+  push:
+    paths: ["physiology/**", "tests/test_physiology.py", "experiments/physiology_monte_carlo.py", ".github/workflows/physiology.yml"]
+  pull_request:
+    paths: ["physiology/**", "tests/test_physiology.py", "experiments/physiology_monte_carlo.py", ".github/workflows/physiology.yml"]
+jobs:
+  physiology:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Python compile
+        run: python -m compileall -q physiology
+      - name: Local unit tests
+        run: python -m unittest discover -s tests -p test_physiology.py -v
+      - name: Autonomous synthetic lifecycle and replay
+        run: |
+          python -m physiology --db "$RUNNER_TEMP/ocg.sqlite3" demo --ticks 90
+          python -m physiology --db "$RUNNER_TEMP/ocg.sqlite3" verify
+      - name: Reproducible paired baseline trial
+        run: python experiments/physiology_monte_carlo.py --runs 30 --ticks 70
