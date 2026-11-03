@@ -1,4 +1,5 @@
-FROM debian@sha256:2a0c9e1b8f0d7a4f0f9c8c9a6c8a6e4c2f5b6d7a9e0b1c2d3e4f5a6b7c8d9e0
+FROM debian@sha256:99c0b25c46d0214d5a2091092e7908907dcaecd6a962cde0ac700acee222b6f3
+# Pinned official bookworm-slim OCI index, verified in docker-library/repo-info (2026-10-28).
 
 ENV LC_ALL=C
 ENV TZ=UTC
