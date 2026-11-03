@@ -77,6 +77,16 @@ class TestPhysiology(unittest.TestCase):
         self.assertGreater(n.cvar, LAW.cvar_limit)
         self.assertEqual(n.action, "RECOVER")
 
+    def test_multi_node_shared_resource_budget(self):
+        c = Colony.genesis(91)
+        c.nodes["omega-1"] = Node("omega-1", energy=50)
+        start = sum(n.energy for n in c.nodes.values())
+        nxt = evolve(c, Perturbation(demand=.5, supply=2.0))
+        end = sum(n.energy for n in nxt.nodes.values())
+        # No duplicated 'supply=2' for each node.
+        self.assertLessEqual(end, start + 2.0)
+        self.assertGreaterEqual(nxt.work, 0)
+
     def test_sqlite_persistence_replay_and_tamper(self):
         with tempfile.TemporaryDirectory() as d:
             path = Path(d) / "lab.sqlite3"
