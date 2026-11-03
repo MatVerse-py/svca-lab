@@ -47,7 +47,7 @@ Fissão exige a conjunção:
 - energia >= 55 unidades sintéticas;
 - total de nós < 4.
 
-Sob fissão: `E_parent_new + E_child_new = E_parent_old - 6`. Não há criação gratuita de recursos; o novo nó continua executando nos ciclos seguintes. Não é prova de bifurcação física nem cálculo de Lyapunov.
+Sob fissão: `E_parent_new + E_child_new = E_parent_old - 6`. O sinal externo `supply` e a demanda são divididos pelos nós ativos a cada ciclo; a multiplicação de nós não multiplica energia disponível. O indicador `work` agrega unidades sintéticas efetivamente servidas, não a contagem de nós. O novo nó continua executando nos ciclos seguintes. Não é prova de bifurcação física nem cálculo de Lyapunov.
 
 ## Execução
 
