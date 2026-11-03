@@ -23,7 +23,7 @@ async function poll(){try{const r=await fetch('/state',{cache:'no-store'});if(!r
 document.querySelector('#tick').textContent=colony.tick;document.querySelector('#nodes').textContent=Object.keys(colony.nodes).length;
 const risks=Object.values(colony.nodes).map(n=>n.cvar).filter(x=>x!==null);
 document.querySelector('#risk').textContent=risks.length?Math.max(...risks).toFixed(3):'SEM AMOSTRA';
-document.querySelector('#work').textContent=colony.work;document.querySelector('#split').textContent=colony.fissions;
+document.querySelector('#work').textContent=colony.work.toFixed(2);document.querySelector('#split').textContent=colony.fissions;
 document.querySelector('#mode').textContent='SYNTHETIC_LOCAL / READ-ONLY';
 }catch(e){document.querySelector('#mode').textContent='OFFLINE / SEM FONTE'} }
 setInterval(poll,750);poll();
