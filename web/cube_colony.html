@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>MatVerse — Colônia sensível (laboratório)</title>
+<style>
+:root{color-scheme:dark}body{margin:0;background:#070b14;color:#e4e9f3;font-family:ui-monospace,Consolas,monospace}
+header{padding:18px 26px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #1f2c43}
+h1{font-size:17px;margin:0}small{color:#8496b2}#canvas{width:100%;height:64vh;display:block}
+section{display:flex;gap:18px;flex-wrap:wrap;padding:14px 26px;border-top:1px solid #1f2c43}
+.metric{min-width:135px}.metric b{display:block;font-size:19px;font-weight:500;margin-top:5px}
+#mode{color:#d6bc86}footer{padding:12px 26px;font-size:12px;color:#92a3bb}
+</style></head><body>
+<header><div><h1>MATVERSE / COLÔNIA Ω</h1><small>Projeção sensível · nenhum comando de mutação na interface</small></div><div id="mode">CONECTANDO</div></header>
+<canvas id="canvas"></canvas>
+<section><div class="metric">Ciclo<b id="tick">—</b></div><div class="metric">População<b id="nodes">—</b></div>
+<div class="metric">CVaR sintético máx.<b id="risk">—</b></div><div class="metric">Trabalho simulado<b id="work">—</b></div>
+<div class="metric">Fissões locais<b id="split">—</b></div><div class="metric">Estado temporal<b id="fresh">—</b></div></section>
+<footer>Representação gráfica de estado. Animação visual ≠ atividade de backend. Dados sintéticos, risco em escala normalizada, sem inferência sobre consciência. A interface não é autoridade constitucional.</footer>
+<script>
+const canvas=document.querySelector('#canvas'),ctx=canvas.getContext('2d');
+let colony=null,lastPoll=0,lastNewTick=0,lastTick=-1;
+function resize(){canvas.width=canvas.clientWidth*devicePixelRatio;canvas.height=canvas.clientHeight*devicePixelRatio}window.addEventListener('resize',resize);resize();
+async function poll(){try{const r=await fetch('/state',{cache:'no-store'});if(!r.ok)throw Error(r.status);const data=await r.json();colony=data.colony;lastPoll=Date.now();if(colony.tick!==lastTick){lastNewTick=lastPoll;lastTick=colony.tick}
+document.querySelector('#tick').textContent=colony.tick;document.querySelector('#nodes').textContent=Object.keys(colony.nodes).length;
+const risks=Object.values(colony.nodes).map(n=>n.cvar).filter(x=>x!==null);
+document.querySelector('#risk').textContent=risks.length?Math.max(...risks).toFixed(3):'SEM AMOSTRA';
+document.querySelector('#work').textContent=colony.work.toFixed(2);document.querySelector('#split').textContent=colony.fissions;
+document.querySelector('#mode').textContent='SYNTHETIC_LOCAL / READ-ONLY';
+}catch(e){document.querySelector('#mode').textContent='OFFLINE / SEM FONTE'} }
+setInterval(poll,750);poll();
+function frame(now){resize();let w=canvas.width,h=canvas.height;ctx.clearRect(0,0,w,h);
+const bg=ctx.createRadialGradient(w*.5,h*.5,0,w*.5,h*.5,Math.max(w,h)*.6);
+bg.addColorStop(0,'#0b1b2b');bg.addColorStop(1,'#070b14');ctx.fillStyle=bg;ctx.fillRect(0,0,w,h);
+const stale=Date.now()-lastNewTick>4000;document.querySelector('#fresh').textContent=!colony?'OFFLINE':stale?'SEM NOVO CICLO':'ATUALIZANDO';
+if(colony){let ns=Object.values(colony.nodes),cx=w*.5,cy=h*.49,spread=Math.min(w,h)*.28;
+ns.forEach((n,i)=>{let angle=2*Math.PI*i/Math.max(1,ns.length)-Math.PI/2;let x=cx+Math.cos(angle)*spread*(ns.length===1?0:1),y=cy+Math.sin(angle)*spread*(ns.length===1?0:1);
+let r=(n.cvar===null?0:n.cvar),phase=now*.001*(n.bpm||60)/60*2*Math.PI+i*1.39;
+let radius=(26+Math.min(n.energy,100)*.20)*(1+.07*Math.sin(phase)), drift=8*(1-n.coherence);
+x+=drift*Math.sin(phase*.43);y+=drift*Math.cos(phase*.61);
+ctx.save();ctx.translate(x,y);ctx.rotate(Math.sin(phase*.19)*.18);
+let color=r>.65?'#e87c70':r>.35?'#deb96a':'#55d3b4';ctx.strokeStyle=color;ctx.lineWidth=1.5*devicePixelRatio;
+for(let k=0;k<3;k++){let z=radius*(1-k*.21);ctx.globalAlpha=(.8-k*.19)*(stale?.5:1);
+ctx.strokeRect(-z,-z,2*z,2*z);}
+ctx.globalAlpha=1;ctx.fillStyle=color;ctx.font=(12*devicePixelRatio)+'px monospace';ctx.textAlign='center';
+ctx.fillText(n.id,0,radius+20*devicePixelRatio);ctx.fillStyle='#b2c3d6';ctx.font=(10*devicePixelRatio)+'px monospace';
+ctx.fillText('E '+n.energy.toFixed(1)+' | '+n.action,0,radius+37*devicePixelRatio);ctx.restore();
+});}
+requestAnimationFrame(frame)}requestAnimationFrame(frame);
+</script></body></html>
