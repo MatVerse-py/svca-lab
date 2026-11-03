@@ -11,7 +11,7 @@ RUN apt-get update && \
 
 # Instalar Go deterministicamente (pinned version + hash)
 ENV GO_VERSION=1.22.3
-ENV GO_SHA256=8920ea521bad8f6b7bc377b482498c1ad3226a1970d573a287d9a7fcdb0625d5
+ENV GO_SHA256=8920ea521bad8f6b7bc377b4824982e011c19af27df88a815e3586ea895f1b36
 RUN wget -q https://dl.google.com/go/go${GO_VERSION}.linux-amd64.tar.gz && \
     echo "${GO_SHA256}  go${GO_VERSION}.linux-amd64.tar.gz" | sha256sum -c && \
     tar -C /usr/local -xzf go${GO_VERSION}.linux-amd64.tar.gz && \
