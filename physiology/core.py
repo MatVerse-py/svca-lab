@@ -100,7 +100,7 @@ class Colony:
     seed: int
     tick: int = 0
     nodes: dict[str, Node] = field(default_factory=dict)
-    work: int = 0
+    work: float = 0.0
     rejected: int = 0
     fissions: int = 0
     events: list[dict] = field(default_factory=list)
@@ -151,10 +151,14 @@ def evolve(original, input_signal, governed=True):
     colony = Colony.unpack(original.pack())
     colony.tick += 1
     colony.events = []
+    # A new node does NOT mint external demand or supply. Both budgets are
+    # allocated across nodes alive at the start of the tick.
+    active_count = len(colony.nodes)
     for node_id in sorted(list(colony.nodes)):
         node = colony.nodes[node_id]
-        demand = clamp(input_signal.demand +
-                       internal_fluctuation(colony.seed, colony.tick, node_id), 0, 4)
+        demand = clamp((input_signal.demand +
+                       internal_fluctuation(colony.seed, colony.tick, node_id))
+                       / active_count, 0, 4)
         # Loss observable: a documented, synthetic operational cost model.
         loss = clamp(0.70*input_signal.shock +
                      0.20*clamp(node.backlog/3) +
@@ -171,14 +175,16 @@ def evolve(original, input_signal, governed=True):
             action = proposed
         factor = {"WORK": 1.0, "THROTTLE": .38, "RECOVER": .15}[action]
         capacity = {"WORK": 1.15, "THROTTLE": 1.30, "RECOVER": 1.25}[action]
-        node.backlog = clamp(node.backlog*.82 + demand*factor-capacity, 0, 10)
+        incoming = node.backlog*.82 + demand*factor
+        served = min(capacity, incoming)
+        node.backlog = clamp(incoming-capacity, 0, 10)
         cost = {"WORK": 1.20, "THROTTLE": .82, "RECOVER": .35}[action]
-        node.energy = clamp(node.energy + input_signal.supply-cost, 0, 100)
+        node.energy = clamp(node.energy + input_signal.supply/active_count-cost, 0, 100)
         node.coherence = clamp(node.coherence +
                                (.018 if action == "RECOVER" else .008) -
                                .025*input_signal.shock-.012*node.backlog)
-        if action == "WORK" and node.backlog < 3:
-            colony.work += 1
+        if action in ("WORK", "THROTTLE"):
+            colony.work += served
         gradient = (abs(node.cvar-previous)
                     if node.cvar is not None and previous is not None
                     else abs(internal_fluctuation(colony.seed, colony.tick, node_id)))
